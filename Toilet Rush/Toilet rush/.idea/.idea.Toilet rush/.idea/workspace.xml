@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../Rollers run/Assets/Scripts/Player/DeathloopMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Point.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/TouchDrawi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Develop/MouseNavi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Develop/NaviControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TouchDraw.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BezierCurve.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmoother.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmootherEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Develop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Point.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Jp9eYcmAcg51ix0wKz3j8F4vq9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="" />
+      <created>1672764254730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672764254730</updated>
+      <workItem from="1672764258883" duration="1909000" />
+      <workItem from="1672766230434" duration="783000" />
+      <workItem from="1672770268103" duration="6605000" />
+      <workItem from="1672843835252" duration="3016000" />
+      <workItem from="1672852798824" duration="4088000" />
+      <workItem from="1672864057235" duration="1244000" />
+      <workItem from="1672866302062" duration="492000" />
+      <workItem from="1672866899987" duration="108000" />
+      <workItem from="1672944694461" duration="6327000" />
+      <workItem from="1672959384056" duration="2425000" />
+      <workItem from="1673025061003" duration="3799000" />
+      <workItem from="1673040262082" duration="389000" />
+      <workItem from="1673541698265" duration="1000" />
+      <workItem from="1673813783957" duration="1879000" />
+      <workItem from="1674037100418" duration="8893000" />
+      <workItem from="1674557399652" duration="2172000" />
+      <workItem from="1674570320398" duration="290000" />
+      <workItem from="1674585940770" duration="876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="344" key="#Notifications" timestamp="1672764286714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1672764286714" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1674039318205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1674039318205" />
+  </component>
+</project>
