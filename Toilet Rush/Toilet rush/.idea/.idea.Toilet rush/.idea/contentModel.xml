@@ -32,6 +32,12 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ButtonController.cs" t="Include" />
+          <e p="ButtonLevelPrefab.cs" t="Include" />
+          <e p="Levels" t="Include">
+            <e p="Item.cs" t="Include" />
+            <e p="Levels.cs" t="Include" />
+            <e p="LevelWindow.cs" t="Include" />
+          </e>
           <e p="PlayerController.cs" t="Include" />
           <e p="Point.cs" t="Include" />
           <e p="TestScripts" t="Include">
