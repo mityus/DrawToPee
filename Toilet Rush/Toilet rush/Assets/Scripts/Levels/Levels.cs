@@ -40,6 +40,13 @@ public class Levels : MonoBehaviour
    {
       for (int i = 0; i < _levelsItem.Count; i++)
       {
+         // Button newButton = Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);
+         //
+         // if (i == 0)
+         // {
+         //    newButton.GetComponent<ButtonLevelPrefab>().iconFon.sprite = _levelsItem[0].IconLevel;
+         // }
+         
          _buttonLevelPrefab.textLevel.text = "LV " + _indexLevel;
          
          Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);

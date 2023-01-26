@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ItemData", menuName = "ScriptableObjects/Item")]
 public class Item : ScriptableObject
 {
-    public Sprite Icon;
+    public Sprite IconLevel;
 }

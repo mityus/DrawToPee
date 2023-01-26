@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float speedMovement = 2f;
     [SerializeField] private Transform parentPoint;
+    [SerializeField] private string tagName;
     
     [Header("LineProperties")]
     [SerializeField] private GameObject linePrefab;
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private bool _isMovement;
 
     private Animator _animator;
+
+    private LevelManager _levelManager = new LevelManager();
     private void Awake()
     {
         firstPoint.transform.position = transform.position;
@@ -110,7 +113,7 @@ public class PlayerController : MonoBehaviour
     {
         // float sqrLen = (_positionPoint - pos).sqrMagnitude;
         float sqrLen = Vector3.Distance(_positionPoint, pos);
-
+    
         if (Mathf.Round(sqrLen) == stepDistance)
         {
             GameObject newGameObject = Instantiate(pointPositionPrefab, pos, Quaternion.identity, parentPoint);
@@ -130,14 +133,16 @@ public class PlayerController : MonoBehaviour
             if (transform.position == _pointList[_pointIndex].transform.position)
             {
                 _pointIndex += 1;
+                Destroy(_pointList[_pointIndex - 1]);
             }
         }
 
         if (_pointIndex == _pointList.Count)
         {
             _pointList.Clear();
-            Destroy(parentPoint.gameObject);
             _isMovement = false;
+
+            LevelManager.SingltonLevelManager.ReachGoal();
         }
     }
 }
