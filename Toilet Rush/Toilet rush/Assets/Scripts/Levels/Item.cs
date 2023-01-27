@@ -7,4 +7,5 @@ public class Item : ScriptableObject
 {
     public Sprite IconLevel;
     public GameObject PrefabLevel;
+    public bool IsClick;
 }

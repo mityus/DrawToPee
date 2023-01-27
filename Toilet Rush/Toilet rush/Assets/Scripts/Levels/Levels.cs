@@ -46,6 +46,7 @@ public class Levels : MonoBehaviour
          Button newButton = Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);
          newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + _indexLevel;
          newButton.onClick.AddListener((() => AddLevel(_levelsItem[i].PrefabLevel)));
+         newButton.GetComponent<Button>().enabled = _levelsItem[i].IsClick;
 
          _listButton.Add(newButton);
          
@@ -64,6 +65,6 @@ public class Levels : MonoBehaviour
    private void AddLevel(GameObject newPanel)
    {
       Instantiate(newPanel, Vector3.zero, Quaternion.identity);
-      //Destroy(gameObject);
+      Destroy(gameObject);
    }
 }

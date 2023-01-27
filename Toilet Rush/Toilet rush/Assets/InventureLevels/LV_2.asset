@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: LV_2
   m_EditorClassIdentifier: 
   IconLevel: {fileID: 21300000, guid: 8c1795ad616d4f24ca95d865ffb71cfd, type: 3}
+  PrefabLevel: {fileID: 8984919544246435972, guid: 4d55c9e1be0759a429cac254c07809f9, type: 3}

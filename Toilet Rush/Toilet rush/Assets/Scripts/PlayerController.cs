@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator DrawLine()
     {
         GameObject newGameObject = Instantiate(linePrefab, Vector3.zero, 
-            Quaternion.identity);
+            Quaternion.identity, gameObject.transform);
         LineRenderer lineRenderer = newGameObject.GetComponent<LineRenderer>(); //поменять
         lineRenderer.positionCount = 0;
 

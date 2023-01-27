@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4589815268018203287}
-  - component: {fileID: 2078602876856909038}
   m_Layer: 0
   m_Name: LevelsManager
   m_TagString: Untagged
@@ -31,26 +30,6 @@ Transform:
   m_Father: {fileID: 1992179303261903300}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2078602876856909038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560451711638392370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b615fa3c9b79c3c4d851b98d8c65baa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startItems:
-  - {fileID: 11400000, guid: 8e480371324defb47b270d5c97b53329, type: 2}
-  - {fileID: 11400000, guid: f617340623d17f94193311e68fb4506e, type: 2}
-  - {fileID: 11400000, guid: 1641e367012cb8a488b9fc8c29d0da8f, type: 2}
-  - {fileID: 11400000, guid: 4e7af94064b2df8489d874395c89cc1b, type: 2}
-  - {fileID: 11400000, guid: b3568c4578863b743bd0dff472a51dde, type: 2}
-  buttonPrefab: {fileID: 7459073147469013735, guid: a97cec0762d13ba499a413f92d962fde, type: 3}
-  panelLevels: {fileID: 1992179303042438829}
 --- !u!1 &1992179301639078711
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,6 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992179303261903300}
   - component: {fileID: 4688885933575275400}
+  - component: {fileID: 2641411660670169692}
   m_Layer: 0
   m_Name: PanelLevels
   m_TagString: Untagged
@@ -647,6 +627,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPanel: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
+--- !u!114 &2641411660670169692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992179303261903301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b615fa3c9b79c3c4d851b98d8c65baa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startItems:
+  - {fileID: 11400000, guid: 8e480371324defb47b270d5c97b53329, type: 2}
+  - {fileID: 11400000, guid: f617340623d17f94193311e68fb4506e, type: 2}
+  - {fileID: 11400000, guid: 1641e367012cb8a488b9fc8c29d0da8f, type: 2}
+  - {fileID: 11400000, guid: 4e7af94064b2df8489d874395c89cc1b, type: 2}
+  - {fileID: 11400000, guid: b3568c4578863b743bd0dff472a51dde, type: 2}
+  buttonPrefab: {fileID: 7459073147469013735, guid: a97cec0762d13ba499a413f92d962fde, type: 3}
+  panelLevels: {fileID: 1992179303042438829}
 --- !u!1 &1992179303388480208
 GameObject:
   m_ObjectHideFlags: 0
