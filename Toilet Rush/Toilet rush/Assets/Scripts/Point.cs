@@ -9,7 +9,7 @@ public class Point : MonoBehaviour
     {
         if (other.gameObject.tag == "ToiletM")
         {
-            PlayerController.isStopDraw = true;
+            PlayerController.IsStopDraw = true;
         }
     }
 }

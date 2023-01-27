@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    public static bool isStopDraw = false;
+    public static bool IsStopDraw;
 
     [SerializeField] private float speedMovement = 2f;
     [SerializeField] private Transform parentPoint;
@@ -32,12 +32,13 @@ public class PlayerController : MonoBehaviour
     private LevelManager _levelManager = new LevelManager();
     private void Awake()
     {
+        IsStopDraw = false;
+        _isDraw = true;
         firstPoint.transform.position = transform.position;
     }
 
     private void Start()
     {
-        _isDraw = true;
         _positionPoint = firstPoint.transform.position;
         _animator = GetComponent<Animator>();
 
@@ -50,7 +51,7 @@ public class PlayerController : MonoBehaviour
             Movement();
         }
         
-        if (isStopDraw)
+        if (IsStopDraw)
         {
             FinishLine();
             _isDraw = false;

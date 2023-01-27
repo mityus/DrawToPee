@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InventureLevels/LV_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InventureLevels/LV_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InventureLevels/LV_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InventureLevels/LV_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InventureLevels/LV_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InventureLevels/LV_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InventureLevels/LV_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InventureLevels/LV_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InventureLevels/LV_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InventureLevels/LV_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/PanelLevels.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/PanelLevels.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Levels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/Levels.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +133,7 @@
       <workItem from="1674743615423" duration="10830000" />
       <workItem from="1674761477923" duration="3499000" />
       <workItem from="1674804921751" duration="1500000" />
+      <workItem from="1674817421837" duration="1684000" />
     </task>
     <servers />
   </component>
@@ -172,9 +162,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1672764286714" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1674039318205">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1674817446617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1674039318205" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1674817446617" />
   </component>
 </project>
