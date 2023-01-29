@@ -8,8 +8,9 @@ public class LevelManager : MonoBehaviour
    public static LevelManager SingltonLevelManager { get; private set; }
    
    [SerializeField] private int countPlayers;
+   [Space] [SerializeField] private GameObject panelWin;
 
-   private int counter;
+   private int _counter;
 
    private void Awake()
    {
@@ -18,16 +19,21 @@ public class LevelManager : MonoBehaviour
 
    private void Start()
    {
-      counter = 0;
+      _counter = 0;
    }
 
    public void ReachGoal()
    {
-      counter++;
+      _counter++;
 
-      if (counter == countPlayers)
+      if (_counter == countPlayers)
       {
-         print("Win");
+         Invoke("AddPanel", 1.0f);
       }
+   }
+
+   private void AddPanel()
+   {
+      panelWin.SetActive(true);
    }
 }

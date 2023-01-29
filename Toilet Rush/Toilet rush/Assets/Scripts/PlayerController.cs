@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
     
     private void OnMouseUp()
     {
+        IsStopDraw = true;
         FinishLine();
         _isDraw = false;
         _isMovement = true;
