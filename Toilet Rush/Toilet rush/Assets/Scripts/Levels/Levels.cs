@@ -14,7 +14,6 @@ public class Levels : MonoBehaviour
    [SerializeField] private RectTransform panelLevels;
 
    private List<Item> _levelsItem = new List<Item>();
-   private List<Button> _listButton = new List<Button>();
 
    private ButtonLevelPrefab _buttonLevelPrefab;
 
@@ -23,10 +22,10 @@ public class Levels : MonoBehaviour
    private void Start()
    {
       _buttonLevelPrefab = buttonPrefab.GetComponent<ButtonLevelPrefab>();
-      
-      for (int i = 0; i < startItems.Count; i++)
+     
+      foreach (var item in startItems)
       {
-         AddItem(startItems[i]);  
+         AddItem(item);
       }
       
       WindowIcons();
@@ -39,27 +38,24 @@ public class Levels : MonoBehaviour
 
    private void WindowIcons()
    {
-      for (int i = 0; i < _levelsItem.Count - 1; i++)
+      foreach (var item in _levelsItem)
       {
          //_buttonLevelPrefab.textLevel.text = "LV " + _indexLevel;
          
          Button newButton = Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);
          newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + _indexLevel;
-         newButton.onClick.AddListener((() => AddLevel(_levelsItem[i].PrefabLevel)));
-         newButton.GetComponent<Button>().enabled = _levelsItem[i].IsClick;
-
-         _listButton.Add(newButton);
+         newButton.onClick.AddListener((() => AddLevel(item.PrefabLevel)));
+         newButton.GetComponent<Button>().enabled = item.IsClick;
          
+         if (item.IsClick)
+         {
+            newButton.GetComponent<ButtonLevelPrefab>().iconFon.sprite = item.IconLevel;
+            newButton.GetComponent<ButtonLevelPrefab>().iconFon.color = Color.white;
+            Destroy(newButton.GetComponent<ButtonLevelPrefab>().iconLock);
+         }
+
          _indexLevel++;
       }
-
-      // настройка первой кнопки, появление картинки и т.д.
-      
-      ButtonLevelPrefab firstButton = _listButton[0].GetComponent<ButtonLevelPrefab>();
-      firstButton.iconFon.sprite = _levelsItem[0].IconLevel;
-      firstButton.iconFon.color = Color.white;
-      Destroy(firstButton.iconLock);
-
    }
 
    private void AddLevel(GameObject newPanel)

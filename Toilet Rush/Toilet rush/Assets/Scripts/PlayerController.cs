@@ -10,8 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float speedMovement = 2f;
     [SerializeField] private Transform parentPoint;
-    [SerializeField] private string tagName;
-    
+
     [Header("LineProperties")]
     [SerializeField] private GameObject linePrefab;
     
@@ -28,8 +27,8 @@ public class PlayerController : MonoBehaviour
     private bool _isMovement;
 
     private Animator _animator;
-
-    private LevelManager _levelManager = new LevelManager();
+    
+    private Line _line = new Line();
     private void Awake()
     {
         IsStopDraw = false;

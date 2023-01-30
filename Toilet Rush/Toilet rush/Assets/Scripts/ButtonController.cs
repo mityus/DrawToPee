@@ -7,7 +7,6 @@ public class ButtonController : MonoBehaviour
 {
    [SerializeField] private GameObject newPanel;
    [SerializeField] private GameObject prefabGameObject;
-   [SerializeField] private GameObject panelWin;
 
    public void AddScene()
    {
@@ -17,8 +16,7 @@ public class ButtonController : MonoBehaviour
 
    public void Replay()
    {
-      Instantiate(prefabGameObject, Vector3.zero, Quaternion.identity);
       Destroy(gameObject);
-      panelWin.SetActive(false);
+      Instantiate(prefabGameObject, Vector3.zero, Quaternion.identity);
    }
 }

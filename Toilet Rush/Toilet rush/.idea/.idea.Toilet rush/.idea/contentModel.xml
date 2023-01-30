@@ -38,7 +38,7 @@
             <e p="LevelManager.cs" t="Include" />
             <e p="Levels.cs" t="Include" />
           </e>
-          <e p="LineManager.cs" t="Include" />
+          <e p="Line.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Point.cs" t="Include" />
           <e p="TestScripts" t="Include">
