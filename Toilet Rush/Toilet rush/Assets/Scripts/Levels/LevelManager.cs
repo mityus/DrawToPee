@@ -8,8 +8,13 @@ public class LevelManager : MonoBehaviour
    public static LevelManager SingltonLevelManager { get; private set; }
    
    [SerializeField] private int countPlayers;
+   [SerializeField] private GameObject nowScene;
+   [SerializeField] private GameObject newScene;
+   
 
    private int _counter;
+   
+   private ButtonController _buttonController = new ButtonController();
 
    private void Awake()
    {
@@ -27,6 +32,7 @@ public class LevelManager : MonoBehaviour
 
       if (_counter == countPlayers)
       {
+         _buttonController.AddScene(newScene, nowScene);
          print("Win");
       }
    }

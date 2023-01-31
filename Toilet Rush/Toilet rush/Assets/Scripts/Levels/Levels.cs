@@ -12,13 +12,14 @@ public class Levels : MonoBehaviour
 
    [SerializeField] private Button buttonPrefab;
    [SerializeField] private RectTransform panelLevels;
+   [SerializeField] private GameObject nowScene;
 
    private List<Item> _levelsItem = new List<Item>();
 
    private ButtonLevelPrefab _buttonLevelPrefab;
-
-   private int _indexLevel = 1;
    
+   private ButtonController _buttonController = new ButtonController();
+
    private void Start()
    {
       _buttonLevelPrefab = buttonPrefab.GetComponent<ButtonLevelPrefab>();
@@ -38,13 +39,16 @@ public class Levels : MonoBehaviour
 
    private void WindowIcons()
    {
+      int indexLevel = 1;
+      
       foreach (var item in _levelsItem)
       {
          //_buttonLevelPrefab.textLevel.text = "LV " + _indexLevel;
          
          Button newButton = Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);
-         newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + _indexLevel;
-         newButton.onClick.AddListener((() => AddLevel(item.PrefabLevel)));
+         newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + indexLevel;
+         //newButton.onClick.AddListener((() => AddLevel(item.PrefabLevel)));
+         newButton.onClick.AddListener((() => _buttonController.AddScene(item.PrefabLevel, nowScene)));
          newButton.GetComponent<Button>().enabled = item.IsClick;
          
          if (item.IsClick)
@@ -54,13 +58,7 @@ public class Levels : MonoBehaviour
             Destroy(newButton.GetComponent<ButtonLevelPrefab>().iconLock);
          }
 
-         _indexLevel++;
+         indexLevel++;
       }
-   }
-
-   private void AddLevel(GameObject newPanel)
-   {
-      Instantiate(newPanel, Vector3.zero, Quaternion.identity);
-      Destroy(gameObject);
    }
 }

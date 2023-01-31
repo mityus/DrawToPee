@@ -2,21 +2,22 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ButtonController : MonoBehaviour
-{
-   [SerializeField] private GameObject newPanel;
-   [SerializeField] private GameObject prefabGameObject;
+{ 
+   [SerializeField] private GameObject newScene;
+   [SerializeField] private GameObject nowScene;
 
    public void AddScene()
    {
-      Instantiate(newPanel, Vector3.zero, Quaternion.identity);
-      Destroy(gameObject);
+      Instantiate(newScene, Vector3.zero, Quaternion.identity);
+      Destroy(nowScene);
    }
-
-   public void Replay()
+   
+   public void AddScene(GameObject newScene, GameObject nowScene)
    {
-      Destroy(gameObject);
-      Instantiate(prefabGameObject, Vector3.zero, Quaternion.identity);
+      Instantiate(newScene, Vector3.zero, Quaternion.identity);
+      Destroy(nowScene);
    }
 }
