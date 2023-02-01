@@ -42,6 +42,10 @@
           <e p="Line.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Point.cs" t="Include" />
+          <e p="Saving" t="Include">
+            <e p="Data.cs" t="Include" />
+            <e p="SaveSystem.cs" t="Include" />
+          </e>
           <e p="TestScripts" t="Include">
             <e p="TouchDraw.cs" t="Include" />
           </e>

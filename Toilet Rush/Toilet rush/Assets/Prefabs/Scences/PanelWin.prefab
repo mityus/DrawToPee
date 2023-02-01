@@ -612,8 +612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049c08554cc59ec4ea3ea47596cebbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: {fileID: 0}
-  nowScene: {fileID: 0}
+  newScene: {fileID: 1862802432774792458}
+  nowScene: {fileID: 1862802432774792458}
 --- !u!1 &4884180029255687873
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,9 +885,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1306185149981152725}
         m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
-        m_MethodName: Replay
+        m_MethodName: Reply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

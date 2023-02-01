@@ -6,7 +6,10 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
    public static LevelManager SingltonLevelManager { get; private set; }
-   
+
+   [HideInInspector] public int numberLevel = 0;
+
+   [SerializeField] private int level;
    [SerializeField] private int countPlayers;
    [SerializeField] private GameObject nowScene;
    [SerializeField] private GameObject newScene;
@@ -24,6 +27,16 @@ public class LevelManager : MonoBehaviour
    private void Start()
    {
       _counter = 0;
+      InformationLevel.nowLevel = nowScene;
+   }
+
+   private void Update()
+   {
+      if (Input.GetKeyDown(KeyCode.Space))
+      {
+         numberLevel++;
+         print(numberLevel);
+      }
    }
 
    public void ReachGoal()

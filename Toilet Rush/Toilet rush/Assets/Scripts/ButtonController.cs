@@ -9,6 +9,11 @@ public class ButtonController : MonoBehaviour
    [SerializeField] private GameObject newScene;
    [SerializeField] private GameObject nowScene;
 
+   private void Start()
+   {
+      print(InformationLevel.nowLevel);
+   }
+
    public void AddScene()
    {
       Instantiate(newScene, Vector3.zero, Quaternion.identity);

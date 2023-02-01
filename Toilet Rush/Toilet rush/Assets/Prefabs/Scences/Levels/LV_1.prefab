@@ -43,6 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd085459623ee1e4d87748833462cd21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberLevel: 0
+  level: 1
   countPlayers: 1
   nowScene: {fileID: 8984919544246435972}
   newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
