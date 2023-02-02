@@ -19,7 +19,6 @@ namespace Saving
             stream.Close();
         }
         
-         
         public static Data LoadData(){
             string path = Application.persistentDataPath + "/data.b";
 

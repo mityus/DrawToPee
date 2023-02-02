@@ -43,6 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd085459623ee1e4d87748833462cd21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 11400000, guid: 8e480371324defb47b270d5c97b53329, type: 2}
+  - {fileID: 11400000, guid: f617340623d17f94193311e68fb4506e, type: 2}
+  - {fileID: 11400000, guid: 1641e367012cb8a488b9fc8c29d0da8f, type: 2}
   numberLevel: 0
   level: 1
   countPlayers: 1
