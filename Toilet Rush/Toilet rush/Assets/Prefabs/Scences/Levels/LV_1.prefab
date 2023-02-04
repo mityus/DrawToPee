@@ -43,11 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd085459623ee1e4d87748833462cd21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Items:
-  - {fileID: 11400000, guid: 8e480371324defb47b270d5c97b53329, type: 2}
-  - {fileID: 11400000, guid: f617340623d17f94193311e68fb4506e, type: 2}
-  - {fileID: 11400000, guid: 1641e367012cb8a488b9fc8c29d0da8f, type: 2}
-  numberLevel: 0
+  itemsButtons: []
   level: 1
   countPlayers: 1
   nowScene: {fileID: 8984919544246435972}
@@ -824,13 +820,25 @@ PrefabInstance:
       value: 0.03651859
       objectReference: {fileID: 0}
     - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
+      propertyPath: tagAim
+      value: ToiletM
+      objectReference: {fileID: 0}
+    - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
       propertyPath: firstPoint
       value: 
       objectReference: {fileID: 5774169328331575208}
     - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
+      propertyPath: linePrefab
+      value: 
+      objectReference: {fileID: 5246854880666478017, guid: c29b180989e4f5045889c3200ade2624, type: 3}
+    - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
       propertyPath: parentPoint
       value: 
       objectReference: {fileID: 8984919543837104940}
+    - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
+      propertyPath: pointPrefab
+      value: 
+      objectReference: {fileID: 3211384094144803519, guid: 7241ccab840627349b777bafd925deb4, type: 3}
     - target: {fileID: 6177176599448099735, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
       propertyPath: m_RootOrder
       value: 4

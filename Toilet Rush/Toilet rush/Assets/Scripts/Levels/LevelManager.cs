@@ -1,39 +1,44 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Levels;
 using Saving;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-   public static LevelManager SingltonLevelManager { get; private set; }
+   public static LevelManager Instance { get; private set; }
    
-   public List<Item> Items = new List<Item>();
-
-   [HideInInspector] public int numberLevel = 0;
+   public List<ItemButton> itemsButtons = new List<ItemButton>();
 
    [SerializeField] private int level;
    [SerializeField] private int countPlayers;
    [SerializeField] private GameObject nowScene;
    [SerializeField] private GameObject newScene;
    
-
    private int _counter;
+   private int _numberLevelSave = 0;
    
    private ButtonController _buttonController = new ButtonController();
 
+   public int NumberLevelSave => _numberLevelSave;
+   
    private void Awake()
    {
-      SingltonLevelManager = this;
+      if (Instance)
+      {
+         Destroy(gameObject);
+         return;
+      }
+      
+      Instance = this;
    }
 
    private void Start()
    {
       _counter = 0;
-      //InformationLevel.nowLevel = nowScene;
 
       Load();
-      //not load data for the first time
    }
 
    private void Update()
@@ -50,30 +55,30 @@ public class LevelManager : MonoBehaviour
       
       if (Input.GetKeyDown(KeyCode.Space))
       {
-         numberLevel = 0;
-         Debug.Log("numberLevel: " + numberLevel);
+         _numberLevelSave = 0;
+         Debug.Log("numberLevel: " + _numberLevelSave);
       }
    }
 
    private void Save()
    {
       SaveSystem.SaveData(this);
-      Debug.Log("Save OK! Saving: " + numberLevel);
+      Debug.Log("Save OK! Saving: " + _numberLevelSave);
    }
    
    private void Load()
    {
       Data data = SaveSystem.LoadData();
 
-      numberLevel = data.numberSaveLevel;
-      Debug.Log("Load Ok: " + numberLevel);
+      _numberLevelSave = data.numberSaveLevel;
+      Debug.Log("Load Ok: " + _numberLevelSave);
 
-      if (numberLevel > 0)
+      if (_numberLevelSave > 0)
       {
-         for (int i = 0; i < Items.Count; i++)
+         for (int i = 0; i < itemsButtons.Count; i++)
          {
-            Items[i].IsClick = data.itemClick[i];
-            Debug.Log("IsClick" + Items[i].IsClick);
+            itemsButtons[i].isClick = data.itemClick[i];
+            Debug.Log("IsClick" + itemsButtons[i].isClick);
          }  
       }
    }
@@ -84,10 +89,10 @@ public class LevelManager : MonoBehaviour
 
       if (_counter == countPlayers)
       {
-         if (numberLevel < level)
+         if (_numberLevelSave < level)
          {
-            numberLevel++;
-            Items[numberLevel].IsClick = true;
+            _numberLevelSave++;
+            itemsButtons[_numberLevelSave].isClick = true;
             Save();
          }
          

@@ -31,23 +31,32 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="ButtonController.cs" t="Include" />
-          <e p="InformationLevel.cs" t="Include" />
+          <e p="Button" t="Include">
+            <e p="ButtonController.cs" t="Include" />
+          </e>
+          <e p="Develop" t="Include">
+            <e p="InformationLevel.cs" t="Include" />
+            <e p="Point.cs" t="Include" />
+          </e>
           <e p="Levels" t="Include">
             <e p="ButtonLevelPrefab.cs" t="Include" />
-            <e p="Item.cs" t="Include" />
+            <e p="Common" t="Include">
+              <e p="InputConfig.cs" t="Include" />
+              <e p="LevelInput.cs" t="Include" />
+            </e>
+            <e p="ItemButton.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
-            <e p="Levels.cs" t="Include" />
+            <e p="LevelsView.cs" t="Include" />
           </e>
-          <e p="Line.cs" t="Include" />
-          <e p="PlayerController.cs" t="Include" />
-          <e p="Point.cs" t="Include" />
+          <e p="Line" t="Include">
+            <e p="Line.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+          </e>
           <e p="Saving" t="Include">
             <e p="Data.cs" t="Include" />
             <e p="SaveSystem.cs" t="Include" />
-          </e>
-          <e p="TestScripts" t="Include">
-            <e p="TouchDraw.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

@@ -6,25 +6,19 @@ using UnityEngine.UI;
 
 namespace Levels
 {
-   public class Levels : MonoBehaviour
+   public class LevelsView : MonoBehaviour
    {
-      [SerializeField] private List<Item> startItems = new List<Item>();
-
+      [SerializeField] private List<ItemButton> startItems = new List<ItemButton>();
       [SerializeField] private Button buttonPrefab;
       [SerializeField] private RectTransform panelLevels;
       [SerializeField] private GameObject nowScene;
 
-      private List<Item> _levelsItem = new List<Item>();
+      private List<ItemButton> _levelsItem = new List<ItemButton>();
 
-      private ButtonLevelPrefab _buttonLevelPrefab;
-   
       private ButtonController _buttonController = new ButtonController();
 
       private void Start()
       {
-         //Load();
-         _buttonLevelPrefab = buttonPrefab.GetComponent<ButtonLevelPrefab>();
-     
          foreach (var item in startItems)
          {
             AddItem(item);
@@ -33,9 +27,9 @@ namespace Levels
          WindowIcons();
       }
 
-      private void AddItem(Item item)
+      private void AddItem(ItemButton itemButton)
       {
-         _levelsItem.Add(item);
+         _levelsItem.Add(itemButton);
       }
 
       private void WindowIcons()
@@ -45,16 +39,17 @@ namespace Levels
             //_buttonLevelPrefab.textLevel.text = "LV " + _indexLevel;
          
             Button newButton = Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);
-            newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + item.ID;
+            newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + item.id;
             //newButton.onClick.AddListener((() => AddLevel(item.PrefabLevel)));
-            newButton.onClick.AddListener((() => _buttonController.AddScene(item.PrefabLevel, nowScene)));
-            newButton.GetComponent<Button>().enabled = item.IsClick;
+            newButton.onClick.AddListener((() => _buttonController.AddScene(item.prefabLevel, nowScene)));
+            newButton.enabled = item.isClick;
          
-            if (item.IsClick)
+            if (item.isClick)
             {
-               newButton.GetComponent<ButtonLevelPrefab>().iconFon.sprite = item.IconLevel;
-               newButton.GetComponent<ButtonLevelPrefab>().iconFon.color = Color.white;
-               Destroy(newButton.GetComponent<ButtonLevelPrefab>().iconLock);
+               ButtonLevelPrefab buttonComponent = newButton.GetComponent<ButtonLevelPrefab>();
+               buttonComponent.iconFon.sprite = item.iconLevel;
+               buttonComponent.iconFon.color = Color.white;
+               Destroy(buttonComponent.iconLock);
             }
          }
       }

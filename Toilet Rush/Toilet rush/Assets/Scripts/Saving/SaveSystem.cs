@@ -1,6 +1,6 @@
+using System;
 using UnityEngine;
 using System.IO;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Saving
@@ -19,7 +19,8 @@ namespace Saving
             stream.Close();
         }
         
-        public static Data LoadData(){
+        public static Data LoadData()
+        {
             string path = Application.persistentDataPath + "/data.b";
 
             if (File.Exists(path))
@@ -32,11 +33,8 @@ namespace Saving
 
                 return data;
             }
-            else
-            {
-                Debug.Log("Error! File does not exist! File does not found in" + path);
-                return null;
-            }
+            
+            throw new Exception("Error! File does not exist! File does not found in" + path);
         }
     }
 }

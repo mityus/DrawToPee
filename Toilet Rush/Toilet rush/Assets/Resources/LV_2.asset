@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7205d56d8b5046d4d9086769f3c66864, type: 3}
   m_Name: LV_2
   m_EditorClassIdentifier: 
-  ID: 2
-  IconLevel: {fileID: 21300000, guid: d8ebf725a3a89cc4a9f9412cf90d951d, type: 3}
-  PrefabLevel: {fileID: 8984919544246435972, guid: 4d55c9e1be0759a429cac254c07809f9, type: 3}
-  IsClick: 1
+  id: 2
+  iconLevel: {fileID: 21300000, guid: dfd66e8cd1ef8b449bbb3b5880823536, type: 3}
+  prefabLevel: {fileID: 8984919544246435972, guid: 4d55c9e1be0759a429cac254c07809f9, type: 3}
+  isClick: 0
