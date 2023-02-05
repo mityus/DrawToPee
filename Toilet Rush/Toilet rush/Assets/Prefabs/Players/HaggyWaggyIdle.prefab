@@ -1491,12 +1491,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6177176599448099735}
+  - component: {fileID: -6856046180653818830}
   - component: {fileID: 4797143880200341813}
   - component: {fileID: 5444065298239207246}
   - component: {fileID: 3374539336542797611}
   m_Layer: 0
   m_Name: HaggyWaggyIdle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1526,6 +1527,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &-6856046180653818830
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516877063497711091}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!70 &4797143880200341813
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1539,8 +1561,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04961559, y: 0.9624573}
-  m_Size: {x: 0.69174427, y: 1.8624251}
+  m_Offset: {x: 0.013634086, y: 0.68418264}
+  m_Size: {x: 0.37507582, y: 1.1740699}
   m_Direction: 0
 --- !u!95 &5444065298239207246
 Animator:
@@ -1574,12 +1596,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMovement: 4
-  parentPoint: {fileID: 0}
-  tagName: ToiletM
+  tagAim: 
   linePrefab: {fileID: 5865010138780075706, guid: c29b180989e4f5045889c3200ade2624, type: 3}
-  pointPositionPrefab: {fileID: 3211384094144803519, guid: 7241ccab840627349b777bafd925deb4, type: 3}
+  pointPrefab: {fileID: 0}
   firstPoint: {fileID: 0}
   stepDistance: 1
+  parentPoint: {fileID: 0}
 --- !u!1 &6520391100869354338
 GameObject:
   m_ObjectHideFlags: 0

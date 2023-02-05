@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Levels;
+using Levels.Common;
 using Saving;
 using UnityEngine;
 
@@ -15,8 +16,8 @@ public class LevelManager : MonoBehaviour
    [SerializeField] private int countPlayers;
    [SerializeField] private GameObject nowScene;
    [SerializeField] private GameObject newScene;
-   
-   private int _counter;
+
+   private int _countingPlayersInLavel;
    private int _numberLevelSave = 0;
    
    private ButtonController _buttonController = new ButtonController();
@@ -36,37 +37,36 @@ public class LevelManager : MonoBehaviour
 
    private void Start()
    {
-      _counter = 0;
+      _countingPlayersInLavel = 0;
 
-      Load();
+      LoadDataLevels();
    }
 
    private void Update()
    {
-      if (Input.GetKeyDown(KeyCode.A))
+      if (Input.GetKeyDown(InputConfig.SaveKey))
       {
-         Save();
+         SaveDataLevels();
       }
       
-      if (Input.GetKeyDown(KeyCode.W))
+      if (Input.GetKeyDown(InputConfig.LoadKey))
       {
-         Load();
+         LoadDataLevels();
       }
       
-      if (Input.GetKeyDown(KeyCode.Space))
+      if (Input.GetKeyDown(InputConfig.ResetSave))
       {
-         _numberLevelSave = 0;
-         Debug.Log("numberLevel: " + _numberLevelSave);
+        ResetData();
       }
    }
 
-   private void Save()
+   private void SaveDataLevels()
    {
       SaveSystem.SaveData(this);
       Debug.Log("Save OK! Saving: " + _numberLevelSave);
    }
    
-   private void Load()
+   private void LoadDataLevels()
    {
       Data data = SaveSystem.LoadData();
 
@@ -83,21 +83,32 @@ public class LevelManager : MonoBehaviour
       }
    }
 
+   private void ResetData()
+   {
+      _numberLevelSave = 0;
+      Debug.Log("Reset OK! numberLevel: " + _numberLevelSave);
+
+      for (int i = 1; i < itemsButtons.Count; i++)
+      {
+         itemsButtons[i].isClick = false;
+      }
+   }
+
    public void ReachGoal()
    {
-      _counter++;
+      _countingPlayersInLavel++;
 
-      if (_counter == countPlayers)
+      if (_countingPlayersInLavel == countPlayers)
       {
          if (_numberLevelSave < level)
          {
             _numberLevelSave++;
             itemsButtons[_numberLevelSave].isClick = true;
-            Save();
+            SaveDataLevels();
          }
          
          _buttonController.AddScene(newScene, nowScene);
-         print("Win");
+         Debug.Log("Win!");
       }
    }
 }

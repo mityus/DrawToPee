@@ -35,14 +35,16 @@
             <e p="ButtonController.cs" t="Include" />
           </e>
           <e p="Develop" t="Include">
-            <e p="InformationLevel.cs" t="Include" />
             <e p="Point.cs" t="Include" />
           </e>
+          <e p="FailWin" t="Include">
+            <e p="FailManager.cs" t="Include" />
+          </e>
+          <e p="InformationLevel.cs" t="Include" />
           <e p="Levels" t="Include">
             <e p="ButtonLevelPrefab.cs" t="Include" />
             <e p="Common" t="Include">
               <e p="InputConfig.cs" t="Include" />
-              <e p="LevelInput.cs" t="Include" />
             </e>
             <e p="ItemButton.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
@@ -50,6 +52,9 @@
           </e>
           <e p="Line" t="Include">
             <e p="Line.cs" t="Include" />
+          </e>
+          <e p="Obstacles" t="Include">
+            <e p="Obstacles.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="PlayerController.cs" t="Include" />
