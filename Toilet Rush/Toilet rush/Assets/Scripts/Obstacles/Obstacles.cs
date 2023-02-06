@@ -1,18 +1,18 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Obstacles : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject newScene;
+    [SerializeField] private GameObject nowScene;
+    
+    private ButtonController _buttonController = new ButtonController();
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        Debug.Log("Fail!");
+        _buttonController.AddScene(newScene, nowScene);
     }
 }

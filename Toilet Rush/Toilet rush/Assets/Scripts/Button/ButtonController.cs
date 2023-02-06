@@ -9,13 +9,13 @@ public class ButtonController : MonoBehaviour
    
    public void AddScene()
    {
-      Destroy(nowScene);
       Instantiate(newScene, Vector3.zero, Quaternion.identity);
+      Destroy(nowScene);
    }
    
    public void AddScene(GameObject newScene, GameObject nowScene)
    {
-      Destroy(nowScene);
       Instantiate(newScene, Vector3.zero, Quaternion.identity);
+      Destroy(nowScene);
    }
 }
