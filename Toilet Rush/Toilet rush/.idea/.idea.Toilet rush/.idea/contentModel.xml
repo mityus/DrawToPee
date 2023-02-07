@@ -54,7 +54,7 @@
             <e p="Line.cs" t="Include" />
           </e>
           <e p="Obstacles" t="Include">
-            <e p="Enemy.cs" t="Include" />
+            <e p="Car.cs" t="Include" />
             <e p="Obstacles.cs" t="Include" />
           </e>
           <e p="Player" t="Include">

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Saving;
 using Unity.Mathematics;
@@ -15,7 +16,13 @@ namespace Levels
 
       private List<ItemButton> _levelsItem = new List<ItemButton>();
 
-      private ButtonController _buttonController = new ButtonController();
+      //private ButtonController _buttonController = new ButtonController();
+      private ButtonController _buttonController;
+
+      private void Awake()
+      {
+         _buttonController = gameObject.AddComponent<ButtonController>();
+      }
 
       private void Start()
       {

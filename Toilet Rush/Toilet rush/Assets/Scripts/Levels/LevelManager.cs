@@ -19,13 +19,15 @@ public class LevelManager : MonoBehaviour
 
    private int _countingPlayersInLavel;
    private int _numberLevelSave = 0;
-   
-   private ButtonController _buttonController = new ButtonController();
+
+   private ButtonController _buttonController;
 
    public int NumberLevelSave => _numberLevelSave;
    
    private void Awake()
    {
+      _buttonController = gameObject.AddComponent<ButtonController>();
+      
       if (Instance)
       {
          Destroy(gameObject);

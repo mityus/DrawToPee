@@ -1,18 +1,23 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacles : MonoBehaviour
+namespace Obstacles
 {
-    [SerializeField] private GameObject newScene;
-    [SerializeField] private GameObject nowScene;
-    
-    private ButtonController _buttonController = new ButtonController();
-
-    private void OnTriggerEnter2D(Collider2D other)
+    public class Obstacles : MonoBehaviour
     {
-        Debug.Log("Fail!");
-        _buttonController.AddScene(newScene, nowScene);
+        [SerializeField] private GameObject newScene;
+        [SerializeField] private GameObject nowScene;
+
+        private ButtonController _buttonController;
+
+        private void Awake()
+        {
+            _buttonController = gameObject.AddComponent<ButtonController>();
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            Debug.Log("Fail!");
+            _buttonController.AddScene(newScene, nowScene);
+        }
     }
 }
