@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LV_5
   m_EditorClassIdentifier: 
   id: 5
-  iconLevel: {fileID: 21300000, guid: 8be0322380ffc454483cf8c3b152f1a5, type: 3}
-  prefabLevel: {fileID: 8984919544246435972, guid: 4d55c9e1be0759a429cac254c07809f9, type: 3}
-  isClick: 0
+  iconLevel: {fileID: 21300000, guid: 6f330cf39d5837648a4b8f2d5321bf8d, type: 3}
+  prefabLevel: {fileID: 4854533446983108645, guid: 2adc3da4ca1610b419b730f9da9f69f1, type: 3}
+  isClick: 1

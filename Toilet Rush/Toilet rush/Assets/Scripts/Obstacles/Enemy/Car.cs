@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Obstacles
+namespace Obstacles.Enemy
 {
-    public class Car : MonoBehaviour
+    public class Car : Obstacles
     {
         [SerializeField] private Transform startPoint;
         [SerializeField] private Transform finishPoint;

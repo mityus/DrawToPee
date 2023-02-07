@@ -14,7 +14,7 @@ namespace Obstacles
             _buttonController = gameObject.AddComponent<ButtonController>();
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        public void OnTriggerEnter2D(Collider2D other)
         {
             Debug.Log("Fail!");
             _buttonController.AddScene(newScene, nowScene);
