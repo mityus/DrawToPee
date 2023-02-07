@@ -45,9 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec8388af14d55784b9b8a99ad575d44c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newPanel: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
-  nowPanel: {fileID: 0}
-  timeInterval: 2
+  parent: {fileID: 0}
+  timeInterval: 3
   bombPrefab: {fileID: 7035033635006984752, guid: a20f8ec74364c294d9ab8a66a7fc2920, type: 3}
   targetBomb: {fileID: 593676496981792366}
 --- !u!1 &6686026436148636750

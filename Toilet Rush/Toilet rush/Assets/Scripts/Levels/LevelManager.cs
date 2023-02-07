@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour
    private void Awake()
    {
       _buttonController = gameObject.AddComponent<ButtonController>();
-      
+
       if (Instance)
       {
          Destroy(gameObject);
