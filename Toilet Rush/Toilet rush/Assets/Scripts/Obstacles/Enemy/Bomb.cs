@@ -25,8 +25,17 @@ namespace Obstacles.Enemy
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            Destroy(nowPanel);
-            Instantiate(newPanel, nowPanel.transform.position, Quaternion.identity);
+            if (other.gameObject.CompareTag("Player"))
+            {
+                Destroy(nowPanel);
+                Instantiate(newPanel, nowPanel.transform.position, Quaternion.identity);    
+            }
+            
+            if (other.gameObject.name == "Wall")
+            {
+                Destroy(gameObject);
+            }
+            
         }
     }
 }

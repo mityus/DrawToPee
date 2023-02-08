@@ -24,8 +24,9 @@ namespace Player
         private Coroutine _drawing;
         private Vector3 _positionPoint;
         private List<GameObject> _pointList = new List<GameObject>();
-        private int _pointIndex = 0;
         
+        private int _pointIndex = 0;
+
         private bool _isDraw = true;
         private bool _isMovement;
         private bool _isStopDraw = false;
@@ -33,7 +34,8 @@ namespace Player
         
         private Animator _animator;
 
-        private Line.Line _line;
+        //private Line.Line _line;
+        private LevelManager _levelManager;
 
         private void Awake()
         {
@@ -43,7 +45,10 @@ namespace Player
 
         private void Start()
         {
+            _levelManager = LevelManager.Instance;
+
             _positionPoint = firstPoint.transform.position;
+            
             _animator = GetComponent<Animator>();
 
         }
@@ -73,10 +78,13 @@ namespace Player
         private void OnMouseUp()
         {
             _isStopDraw = true;
+            
+            InformationLevel.CounterPlayer++;
+            
             FinishLine();
+            
             _isDraw = false;
             _isMovement = true;
-            _animator.SetBool("Run", true);
         }
     
         private void StartLine()
@@ -129,16 +137,21 @@ namespace Player
 
         private void Move()
         {
-            if (_pointIndex < _pointList.Count)
+            if (InformationLevel.CounterPlayer == _levelManager.CountPlayers)
             {
-                transform.position = Vector2.MoveTowards(transform.position, 
-                    _pointList[_pointIndex].transform.position, speedMovement * Time.deltaTime);
-            
-                if (transform.position == _pointList[_pointIndex].transform.position)
+                _animator.SetBool("Run", true);
+                
+                if (_pointIndex < _pointList.Count)
                 {
-                    _pointIndex += 1;
-                    Destroy(_pointList[_pointIndex - 1]);
-                }
+                    transform.position = Vector2.MoveTowards(transform.position, 
+                        _pointList[_pointIndex].transform.position, speedMovement * Time.deltaTime);
+            
+                    if (transform.position == _pointList[_pointIndex].transform.position)
+                    {
+                        _pointIndex += 1;
+                        Destroy(_pointList[_pointIndex - 1]);
+                    }
+                }   
             }
 
             if (_pointIndex == _pointList.Count)

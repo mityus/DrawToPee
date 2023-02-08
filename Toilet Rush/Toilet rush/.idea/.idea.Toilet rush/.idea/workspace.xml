@@ -21,12 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Players/KissyMissy/Animation/Pee.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Players/KissyMissy/Animation/Pee.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Cannon/Cannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Cannon/Cannon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Players/KissyMissy/Animation/Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Players/KissyMissy/Animation/Run.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Players/KissyMissyIdle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Players/KissyMissyIdle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_4.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Toilet/ToiletMale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Toilet/ToiletMale.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/PanelLevels.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/PanelLevels.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InformationLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InformationLevel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Toilets/ToiletFemale.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Toilets/ToiletFemale.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ButtonLevelPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ItemButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Common/InputConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InformationLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FailWin/FailManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" />
@@ -86,8 +92,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Cannon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InformationLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +182,8 @@
       <workItem from="1675709696212" duration="5412000" />
       <workItem from="1675761295248" duration="2109000" />
       <workItem from="1675769577536" duration="5934000" />
-      <workItem from="1675807478994" duration="2693000" />
+      <workItem from="1675807478994" duration="2784000" />
+      <workItem from="1675852526499" duration="4293000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7205d56d8b5046d4d9086769f3c66864, type: 3}
+  m_Name: LV_6
+  m_EditorClassIdentifier: 
+  id: 6
+  iconLevel: {fileID: 21300000, guid: e13b0ef2711f5ca4a9727eabfc1863ac, type: 3}
+  prefabLevel: {fileID: 811622371919521437, guid: 8092e67f67584954f9838fe04cbc6a7d, type: 3}
+  isClick: 0

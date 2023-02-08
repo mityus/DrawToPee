@@ -14,9 +14,11 @@ public class LevelManager : MonoBehaviour
 
    [SerializeField] private int level;
    [SerializeField] private int countPlayers;
+   public int CountPlayers => countPlayers;
+
    [SerializeField] private GameObject nowScene;
    [SerializeField] private GameObject newScene;
-
+   
    private int _countingPlayersInLavel;
    private int _numberLevelSave = 0;
 
@@ -27,6 +29,7 @@ public class LevelManager : MonoBehaviour
    private void Awake()
    {
       _buttonController = gameObject.AddComponent<ButtonController>();
+      InformationLevel.CounterPlayer = 0;
 
       if (Instance)
       {

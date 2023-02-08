@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class InformationLevel
 {
-    public static GameObject nowLevel;
-    public static GameObject nextLevel;
+    // public static GameObject nowLevel;
+    // public static GameObject nextLevel;
+
+    public static int CounterPlayer;
 }
