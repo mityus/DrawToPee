@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4874566616724165911}
   - component: {fileID: 8264127058524327358}
-  - component: {fileID: 3081733308871804607}
+  - component: {fileID: 198816522997199886}
   m_Layer: 0
   m_Name: ToiletFimale
   m_TagString: ToiletF
@@ -83,8 +83,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3081733308871804607
-BoxCollider2D:
+--- !u!60 &198816522997199886
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -100,12 +100,29 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3266667, y: 2.74}
+    oldSize: {x: 0.995, y: 2.055}
     newSize: {x: 1.3266667, y: 2.74}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.3266667, y: 2.74}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.42749998, y: 0.8925}
+      - {x: 0.39249998, y: 0.91999996}
+      - {x: 0.3525, y: 0.9475}
+      - {x: 0.24249999, y: 1}
+      - {x: 0.1275, y: 1.0275}
+      - {x: -0.0975, y: 1.0275}
+      - {x: -0.122499995, y: 1.0224999}
+      - {x: -0.14999999, y: 1.0174999}
+      - {x: -0.22, y: 1}
+      - {x: -0.26749998, y: 0.98499995}
+      - {x: -0.345, y: 0.9475}
+      - {x: -0.42249998, y: 0.895}
+      - {x: -0.49249998, y: 0.88}
+      - {x: -0.4975, y: 0.875}
+      - {x: -0.4975, y: -1.0275}
+      - {x: 0.4975, y: -1.0275}
+      - {x: 0.4975, y: 0.8775}
+      - {x: 0.49499997, y: 0.88}
