@@ -1011,6 +1011,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3093500954630156056}
     m_Modifications:
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 3093500954630156071}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: startPoint
+      value: 
+      objectReference: {fileID: 5003886270622001235}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: finishPoint
+      value: 
+      objectReference: {fileID: 5003886270563235022}
     - target: {fileID: 3995981671676544485, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: m_Name
       value: car01

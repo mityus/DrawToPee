@@ -22,11 +22,18 @@ namespace Obstacles
         {
             if (other.gameObject.name == namePlayer)
             {
-                Destroy(_obstacles);
-                Destroy(lockToilet);
-                toilet.tag = tagToilet;
-                Destroy(gameObject);
+               OpenToilet();
             }
+        }
+
+        private void OpenToilet()
+        {
+            Destroy(_obstacles);
+            Destroy(lockToilet);
+            
+            toilet.tag = tagToilet;
+            
+            Destroy(gameObject);
         }
     }
 }

@@ -22,10 +22,15 @@
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Labyrinthai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Labyrinthai.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Toilet/ToiletFimale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Toilet/ToiletFimale.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Toilet/ToiletMale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Toilet/ToiletMale.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LV_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LV_8.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/car01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/car01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_12.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_12.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_13.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_14.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Monster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FailWin/FailManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,13 +87,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Car.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Cannon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InformationLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/MovementEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/IEnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Monster.cs" />
       </list>
     </option>
   </component>
@@ -177,7 +188,8 @@
       <workItem from="1675769577536" duration="5934000" />
       <workItem from="1675807478994" duration="2784000" />
       <workItem from="1675852526499" duration="4346000" />
-      <workItem from="1675874363278" duration="1195000" />
+      <workItem from="1675874363278" duration="1265000" />
+      <workItem from="1675883876006" duration="3274000" />
     </task>
     <servers />
   </component>

@@ -1515,6 +1515,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7105544826665690846}
     m_Modifications:
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 7105544826665690849}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: startPoint
+      value: 
+      objectReference: {fileID: 938092225859608981}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: finishPoint
+      value: 
+      objectReference: {fileID: 938092226069282056}
     - target: {fileID: 3995981671676544485, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: m_Name
       value: car01
@@ -1609,6 +1621,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7105544826665690846}
     m_Modifications:
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 7105544826665690849}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: startPoint
+      value: 
+      objectReference: {fileID: 6365210469653995558}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: finishPoint
+      value: 
+      objectReference: {fileID: 6365210469422106943}
     - target: {fileID: 1784281406018280236, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: m_FlipX
       value: 1

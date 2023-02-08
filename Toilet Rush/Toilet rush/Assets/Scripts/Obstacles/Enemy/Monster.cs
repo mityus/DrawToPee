@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Obstacles.Enemy
 {
-    public class Car : Obstacles, IEnemyMovement
+    public class Monster : Obstacles, IEnemyMovement
     {
         [SerializeField] private Transform startPoint;
         [SerializeField] private Transform finishPoint;
@@ -39,8 +39,13 @@ namespace Obstacles.Enemy
         
             if (_direction == "Start")
             {
-                transform.position = startPoint.position;
-                _direction = "Finish";
+                transform.position = Vector3.MoveTowards(transform.position, startPoint.position, 
+                    speedMove * Time.deltaTime); 
+                
+                if (transform.position == startPoint.position)
+                {
+                    _direction = "Finish";
+                }
             }
         }
     }

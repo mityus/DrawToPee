@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5130226070330870512}
   - component: {fileID: 1784281406018280236}
   - component: {fileID: 8044110813362076068}
-  - component: {fileID: 5495318127069641895}
+  - component: {fileID: 771948528527713769}
   m_Layer: 0
   m_Name: car01
   m_TagString: Untagged
@@ -110,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0627093, y: 0.9151531}
   m_EdgeRadius: 0
---- !u!114 &5495318127069641895
+--- !u!114 &771948528527713769
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26848834682d3c54cb0badb6cdc679b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: {fileID: 0}
+  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
   nowScene: {fileID: 0}
   startPoint: {fileID: 0}
   finishPoint: {fileID: 0}
