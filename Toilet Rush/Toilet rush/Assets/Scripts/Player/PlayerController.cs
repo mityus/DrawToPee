@@ -14,17 +14,17 @@ namespace Player
 
         [Header("LineProperties")]
         [SerializeField] private LineRenderer linePrefab;
-    
+
         [Header("PointsProperties")]
         [SerializeField] private GameObject pointPrefab;
         [SerializeField] private GameObject firstPoint;
         [SerializeField] private float stepDistance = 2f;
         [SerializeField] private Transform parentPoint;
-
+        
         private Coroutine _drawing;
         private Vector3 _positionPoint;
         private List<GameObject> _pointList = new List<GameObject>();
-        
+
         private int _pointIndex = 0;
 
         private bool _isDraw = true;
@@ -33,13 +33,11 @@ namespace Player
         private bool _isReachAim = false;
         
         private Animator _animator;
-
-        //private Line.Line _line;
+        
         private LevelManager _levelManager;
-
+        
         private void Awake()
         {
-            //_line = new Line(linePrefab, stepDistance, _pointList, pointPrefab, parentPoint);
             firstPoint.transform.position = transform.position;
         }
 
@@ -93,8 +91,7 @@ namespace Player
             {
                 StopCoroutine(_drawing);
             }
-
-            //_drawing = StartCoroutine(_line.DrawLine(_positionPoint));
+            
             _drawing = StartCoroutine(DrawLine());
         }
     

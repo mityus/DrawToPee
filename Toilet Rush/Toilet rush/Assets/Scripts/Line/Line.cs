@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 namespace Line
@@ -12,16 +14,15 @@ namespace Line
         private GameObject _pointPrefab;
         private Transform _parentPoint;
     
-        public Line(LineRenderer linePrefab, float stepDistance, List<GameObject> pointList, 
-            GameObject pointPrefab, Transform parentPoint)
-        {
-            _linePrefab = linePrefab;
-            _stepDistance = stepDistance;
-            _pointList = pointList;
-            _pointPrefab = pointPrefab;
-            _parentPoint = parentPoint;
-        }
-    
+        // public Line(PlayerController playerController)
+        // {
+        //     _linePrefab = playerController.LinePrefab;
+        //     _stepDistance = playerController.StepDistance;
+        //     _pointList = playerController.PointList;
+        //     _pointPrefab = playerController.PointPrefab;
+        //     _parentPoint = playerController.ParentPoint;
+        // }
+
         public IEnumerator DrawLine(Vector3 positionPoint)
         {
             LineRenderer lineRenderer = Instantiate(_linePrefab, Vector3.zero, 
