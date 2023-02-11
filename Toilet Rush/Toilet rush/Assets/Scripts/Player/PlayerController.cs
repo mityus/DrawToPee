@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Line = Line.Line;
 
 namespace Player
 {
@@ -35,7 +36,7 @@ namespace Player
         private Animator _animator;
         
         private LevelManager _levelManager;
-        
+
         private void Awake()
         {
             firstPoint.transform.position = transform.position;

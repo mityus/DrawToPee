@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/car01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/car01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line/Line.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line/Line.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +89,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Monster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Develop/Test1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Develop/Test2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -186,6 +183,7 @@
       <workItem from="1675874363278" duration="1265000" />
       <workItem from="1675883876006" duration="3274000" />
       <workItem from="1675963292747" duration="4279000" />
+      <workItem from="1676060513675" duration="343000" />
     </task>
     <servers />
   </component>
