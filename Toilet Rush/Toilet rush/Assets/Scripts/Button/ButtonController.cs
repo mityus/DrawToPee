@@ -6,6 +6,8 @@ public class ButtonController : MonoBehaviour
 { 
    [SerializeField] private GameObject newScene;
    [SerializeField] private GameObject nowScene;
+
+   [SerializeField] private bool isPanelResult;
    
    private List<GameObject> _levelsList = new List<GameObject>();
 
@@ -22,10 +24,22 @@ public class ButtonController : MonoBehaviour
       Destroy(nowScene);
       Instantiate(newScene, Vector3.zero, Quaternion.identity);
    }
-   
+
    public void AddScene(GameObject newScene, GameObject nowScene)
    {
       Destroy(nowScene);
       Instantiate(newScene, Vector3.zero, Quaternion.identity);
+   }
+
+   public void ReloadLvl()
+   {
+      Destroy(nowScene);
+      Instantiate(_levelsList[InformationLevel.NowLevel], Vector3.zero, Quaternion.identity);
+   }
+
+   public void GoNewLvl()
+   {
+      Destroy(nowScene);
+      Instantiate(_levelsList[InformationLevel.NextLevel], Vector3.zero, Quaternion.identity);
    }
 }
