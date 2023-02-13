@@ -842,6 +842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 1992179303261903301, guid: 7a8815ecbb1027747acf29f8a4f7cc4e, type: 3}
   nowScene: {fileID: 1862802432774792458}
+  isPanelResult: 1
 --- !u!1 &4382708464149245343
 GameObject:
   m_ObjectHideFlags: 0

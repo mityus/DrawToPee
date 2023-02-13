@@ -13,9 +13,12 @@ public class ButtonController : MonoBehaviour
 
    private void Start()
    {
-      foreach (GameObject lvl in LevelsPrefabs.Instance.LevelPrefab)
+      if(isPanelResult)
       {
-         _levelsList.Add(lvl);
+         foreach (GameObject lvl in LevelsPrefabs.Instance.LevelPrefab)
+         {
+            _levelsList.Add(lvl);
+         }  
       }
    }
 

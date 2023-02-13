@@ -945,6 +945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 6013804599560618066}
+  isPanelResult: 0
 --- !u!1001 &6013804599187590145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1239,6 +1240,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6013804599560618093}
     m_Modifications:
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 6013804599560618066}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: startPoint
+      value: 
+      objectReference: {fileID: 4389428388516120358}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: finishPoint
+      value: 
+      objectReference: {fileID: 4389428388457356219}
     - target: {fileID: 3995981671676544485, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: m_Name
       value: car01
