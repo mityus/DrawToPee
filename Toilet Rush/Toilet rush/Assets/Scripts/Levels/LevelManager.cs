@@ -28,6 +28,9 @@ public class LevelManager : MonoBehaviour
    
    private void Awake()
    {
+      InformationLevel.NowLevel = level - 1;
+      InformationLevel.NextLevel = level;
+      
       _buttonController = gameObject.AddComponent<ButtonController>();
       InformationLevel.CounterPlayer = 0;
 
