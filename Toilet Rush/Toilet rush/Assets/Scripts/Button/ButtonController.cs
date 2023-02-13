@@ -7,20 +7,14 @@ public class ButtonController : MonoBehaviour
    [SerializeField] private GameObject newScene;
    [SerializeField] private GameObject nowScene;
    
-   private List<GameObject> levelsList = new List<GameObject>();
-
-   private LevelsPrefabs _levelsPrefabs;
+   private List<GameObject> _levelsList = new List<GameObject>();
 
    private void Start()
    {
-      _levelsPrefabs = gameObject.AddComponent<LevelsPrefabs>();
-
-      foreach (var level in _levelsPrefabs.LevelPrefab)
+      foreach (GameObject lvl in LevelsPrefabs.Instance.LevelPrefab)
       {
-         levelsList.Add(level);
+         _levelsList.Add(lvl);
       }
-      
-      print(levelsList.Count);
    }
 
    public void AddScene()
