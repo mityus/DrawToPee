@@ -842,6 +842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 5512114155012103145}
+  isPanelResult: 0
 --- !u!1001 &5512114154571438010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2724,7 +2725,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8199142029762910911, guid: fd6d6f14c58757a4ab0102ffb8b52f03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fd6d6f14c58757a4ab0102ffb8b52f03, type: 3}
 --- !u!4 &4914604603997787880 stripped
 Transform:

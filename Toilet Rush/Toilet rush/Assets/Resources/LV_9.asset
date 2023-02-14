@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 9
   iconLevel: {fileID: 0}
-  prefabLevel: {fileID: 0}
-  isClick: 0
+  prefabLevel: {fileID: 5796121340772929210, guid: e922edd871271734f935966289927a00, type: 3}
+  isClick: 1

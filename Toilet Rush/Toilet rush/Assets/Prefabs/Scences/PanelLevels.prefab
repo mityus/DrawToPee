@@ -484,7 +484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6066.817, y: 0}
+  m_AnchoredPosition: {x: 6066.764, y: 0}
   m_SizeDelta: {x: 12133.527, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1992179303042438830
@@ -893,3 +893,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 1992179303261903301}
+  isPanelResult: 0
