@@ -364,7 +364,8 @@ MonoBehaviour:
   level: 8
   countPlayers: 2
   nowScene: {fileID: 6013804599560618066}
-  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  winScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  failScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
 --- !u!1 &4389428387722436359
 GameObject:
   m_ObjectHideFlags: 0

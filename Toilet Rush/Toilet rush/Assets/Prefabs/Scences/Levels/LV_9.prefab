@@ -231,7 +231,8 @@ MonoBehaviour:
   level: 9
   countPlayers: 2
   nowScene: {fileID: 5796121340772929210}
-  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  winScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  failScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
 --- !u!1 &3023100537120815854
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 5796121340772929210}
+  isPanelResult: 0
 --- !u!1001 &3233352666691357064
 PrefabInstance:
   m_ObjectHideFlags: 0

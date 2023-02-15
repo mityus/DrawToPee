@@ -149,15 +149,22 @@ namespace Player
                         _pointIndex += 1;
                         Destroy(_pointList[_pointIndex - 1]);
                     }
+
+                    if (transform.position == _pointList[_pointList.Count - 1].transform.position)
+                    {
+                        if (_isReachAim)
+                        {
+                            _pointList.Clear();
+                            _isMovement = false;
+                            LevelManager.Instance.ReachGoal();
+                        }
+
+                        else
+                        {
+                            LevelManager.Instance.LoseLvl();
+                        }
+                    }
                 }   
-            }
-
-            if (_pointIndex == _pointList.Count)
-            {
-                _pointList.Clear();
-                _isMovement = false;
-
-                if(_isReachAim) LevelManager.Instance.ReachGoal();
             }
         }
 

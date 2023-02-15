@@ -438,6 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 13892167484273397}
+  isPanelResult: 0
 --- !u!1 &5303968735982165936
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +730,8 @@ MonoBehaviour:
   level: 18
   countPlayers: 2
   nowScene: {fileID: 13892167484273397}
-  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  winScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  failScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
 --- !u!1 &8766989601596982945
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,7 +17,8 @@ public class LevelManager : MonoBehaviour
    public int CountPlayers => countPlayers;
 
    [SerializeField] private GameObject nowScene;
-   [SerializeField] private GameObject newScene;
+   [SerializeField] private GameObject winScene;
+   [SerializeField] private GameObject failScene;
    
    private int _countingPlayersInLavel;
    private int _numberLevelSave = 0;
@@ -86,7 +87,7 @@ public class LevelManager : MonoBehaviour
          for (int i = 0; i < itemsButtons.Count; i++)
          {
             itemsButtons[i].isClick = data.itemClick[i];
-            Debug.Log("IsClick" + itemsButtons[i].isClick);
+            //Debug.Log("IsClick" + itemsButtons[i].isClick);
          }  
       }
    }
@@ -115,8 +116,14 @@ public class LevelManager : MonoBehaviour
             SaveDataLevels();
          }
          
-         _buttonController.AddScene(newScene, nowScene);
+         _buttonController.AddScene(winScene, nowScene);
          Debug.Log("Win!");
       }
+   }
+
+   public void LoseLvl()
+   {
+      _buttonController.AddScene(failScene, nowScene);
+      Debug.Log("Lose!");
    }
 }
