@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 838669492853861481}
   - component: {fileID: 3529852972751820118}
   - component: {fileID: 3595399455652069168}
+  - component: {fileID: 2202998375604420088}
   m_Layer: 0
   m_Name: Labyrinthai
   m_TagString: Untagged
@@ -109,3 +110,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.692259, y: 0.054941222}
   m_EdgeRadius: 0
+--- !u!114 &2202998375604420088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8377305715478947079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1186ac87d8261d045ac2e3d9cf8683f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
+  nowScene: {fileID: 0}
