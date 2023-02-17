@@ -21,7 +21,7 @@ namespace Player
         [SerializeField] private GameObject firstPoint;
         [SerializeField] private float stepDistance = 2f;
         [SerializeField] private Transform parentPoint;
-        
+
         private Coroutine _drawing;
         private Vector3 _positionPoint;
         private List<GameObject> _pointList = new List<GameObject>();
@@ -170,10 +170,12 @@ namespace Player
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag(tagAim))
-            {
-                _isReachAim = true;
-            }
+            if (other.gameObject.CompareTag(tagAim))  _isReachAim = true;
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Player")) ClashPlayers.Instance.IsClash = true;
         }
     }
 }

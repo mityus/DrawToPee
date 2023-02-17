@@ -4,12 +4,25 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour
 { 
+   public static ButtonController Instance { get; private set; }
+   
    [SerializeField] private GameObject newScene;
    [SerializeField] private GameObject nowScene;
 
    [SerializeField] private bool isPanelResult;
    
    private List<GameObject> _levelsList = new List<GameObject>();
+
+   private void Awake()
+   {
+      if (Instance)
+      {
+         Destroy(gameObject);
+         return;
+      }
+      
+      Instance = this;
+   }
 
    private void Start()
    {

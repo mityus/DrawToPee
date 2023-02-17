@@ -1602,6 +1602,7 @@ MonoBehaviour:
   firstPoint: {fileID: 0}
   stepDistance: 1
   parentPoint: {fileID: 0}
+  failScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
 --- !u!1 &6520391100869354338
 GameObject:
   m_ObjectHideFlags: 0
