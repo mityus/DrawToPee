@@ -49,6 +49,8 @@ public class LevelManager : MonoBehaviour
       _countingPlayersInLavel = 0;
 
       LoadDataLevels();
+
+      InformationLevel.LoseStatus = 0;
    }
 
    private void Update()

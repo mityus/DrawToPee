@@ -8,4 +8,6 @@ public static class InformationLevel
     public static int NextLevel;
 
     public static int CounterPlayer;
+
+    public static int LoseStatus;
 }

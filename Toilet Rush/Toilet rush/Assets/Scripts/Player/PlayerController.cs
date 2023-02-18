@@ -173,9 +173,14 @@ namespace Player
             if (other.gameObject.CompareTag(tagAim))  _isReachAim = true;
         }
 
-        // private void OnCollisionEnter2D(Collision2D other)
-        // {
-        //     if (other.gameObject.CompareTag("Player")) LevelManager.Instance.LoseLvl();;
-        // }
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            InformationLevel.LoseStatus++;
+
+            if (InformationLevel.LoseStatus == 1)
+            {
+                if (other.gameObject.CompareTag("Player")) LevelManager.Instance.LoseLvl();
+            }
+        }
     }
 }
