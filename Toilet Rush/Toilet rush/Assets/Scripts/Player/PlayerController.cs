@@ -173,9 +173,9 @@ namespace Player
             if (other.gameObject.CompareTag(tagAim))  _isReachAim = true;
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
-        {
-            if (other.gameObject.CompareTag("Player")) ClashPlayers.Instance.IsClash = true;
-        }
+        // private void OnCollisionEnter2D(Collision2D other)
+        // {
+        //     if (other.gameObject.CompareTag("Player")) LevelManager.Instance.LoseLvl();;
+        // }
     }
 }
