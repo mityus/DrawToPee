@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="" />
+    <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +198,7 @@
       <workItem from="1676474015620" duration="2732000" />
       <workItem from="1676669782254" duration="1971000" />
       <workItem from="1676747193573" duration="1354000" />
-      <workItem from="1676752882565" duration="1239000" />
+      <workItem from="1676752882565" duration="1397000" />
     </task>
     <servers />
   </component>
