@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Obstacles
 {
-    public class Key : MonoBehaviour
+    public class Loot : MonoBehaviour
     {
         [SerializeField] private string namePlayer;
         [SerializeField] private string tagToilet;

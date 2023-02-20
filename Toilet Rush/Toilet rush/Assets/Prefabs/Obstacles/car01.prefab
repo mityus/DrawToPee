@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26848834682d3c54cb0badb6cdc679b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
   nowScene: {fileID: 0}
   startPoint: {fileID: 0}
   finishPoint: {fileID: 0}

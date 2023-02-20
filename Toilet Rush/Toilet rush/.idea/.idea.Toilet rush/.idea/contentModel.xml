@@ -96,6 +96,7 @@
             <e p="Line.cs" t="Include" />
           </e>
           <e p="Obstacles" t="Include">
+            <e p="ButtonHelp.cs" t="Include" />
             <e p="Enemy" t="Include">
               <e p="Bomb.cs" t="Include" />
               <e p="Cannon.cs" t="Include" />
@@ -103,7 +104,7 @@
               <e p="Monster.cs" t="Include" />
             </e>
             <e p="IEnemyMovement.cs" t="Include" />
-            <e p="Key.cs" t="Include" />
+            <e p="Loot.cs" t="Include" />
             <e p="Obstacles.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
