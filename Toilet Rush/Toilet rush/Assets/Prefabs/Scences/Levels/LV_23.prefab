@@ -1527,6 +1527,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: toilet
+      value: 
+      objectReference: {fileID: 3362934776860618512}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: tagToilet
+      value: ToiletF
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: lockToilet
+      value: 
+      objectReference: {fileID: 4291589000734816392}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: namePlayer
+      value: KissyMissyIdle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
 --- !u!4 &8694588793254089054 stripped
@@ -1604,6 +1620,22 @@ PrefabInstance:
     - target: {fileID: 4839024359416107616, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: toilet
+      value: 
+      objectReference: {fileID: 4782758748554798022}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: tagToilet
+      value: ToiletM
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: lockToilet
+      value: 
+      objectReference: {fileID: 7063746709547696747}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: namePlayer
+      value: HaggyWaggyIdle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
@@ -1920,20 +1952,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2374754331031319884, guid: fd6d6f14c58757a4ab0102ffb8b52f03, type: 3}
   m_PrefabInstance: {fileID: 7109802578991453834}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7063746709023445338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4782758748554798022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1186ac87d8261d045ac2e3d9cf8683f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
-  nowScene: {fileID: 5829648159219067730}
 --- !u!1001 &7471496909769140963
 PrefabInstance:
   m_ObjectHideFlags: 0

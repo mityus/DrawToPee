@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1501247208220401182}
   - component: {fileID: 1501247208220401183}
   - component: {fileID: 1782760275829369798}
+  - component: {fileID: 7526131184277211050}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 84d533d7145e6454f80d901eba83e078, type: 3}
   m_Color: {r: 0.990566, g: 0.2244947, b: 0, a: 1}
   m_FlipX: 0
@@ -120,3 +121,20 @@ PolygonCollider2D:
       - {x: 0.3075, y: -0.1525}
       - {x: 0.3075, y: -0.0525}
       - {x: 0.2175, y: 0.0525}
+--- !u!114 &7526131184277211050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501247208220401170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaaaa2742b07dcf4f8f5093c922a0476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  namePlayer: 
+  tagToilet: 
+  toilet: {fileID: 0}
+  lockToilet: {fileID: 0}
+  colorChanged: {r: 0.747928, g: 1, b: 0, a: 1}

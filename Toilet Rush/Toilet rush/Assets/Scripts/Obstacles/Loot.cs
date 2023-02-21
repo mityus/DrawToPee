@@ -6,34 +6,23 @@ namespace Obstacles
     public class Loot : MonoBehaviour
     {
         [SerializeField] private string namePlayer;
+        protected string NamePlayer => namePlayer;
+        
         [SerializeField] private string tagToilet;
 
         [SerializeField] private GameObject toilet;
         [SerializeField] private GameObject lockToilet;
 
-        private Obstacles _obstacles;
-
-        private void Start()
+        protected void OpenToilet()
         {
-            _obstacles = toilet.GetComponent<Obstacles>();
-        }
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.name == namePlayer)
-            {
-               OpenToilet();
-            }
-        }
-
-        private void OpenToilet()
-        {
-            Destroy(_obstacles);
             Destroy(lockToilet);
             
             toilet.tag = tagToilet;
-            
-            Destroy(gameObject);
+        }
+
+        protected void ChangedColorSprite(SpriteRenderer spriteRenderer, Color colorChanged)
+        {
+            spriteRenderer.color = colorChanged;
         }
     }
 }

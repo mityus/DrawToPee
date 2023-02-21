@@ -3,49 +3,25 @@ using UnityEngine;
 
 namespace Obstacles
 {
-    public class ButtonHelp : MonoBehaviour
+    public class ButtonHelp : Loot
     {
-        
-        [SerializeField] private string namePlayer;
-        [SerializeField] private string tagToilet;
-
-        [SerializeField] private GameObject toilet;
-        [SerializeField] private GameObject lockToilet;
-
-        [SerializeField] private Color colorButtonChanged;
-
-        private Obstacles _obstacles;
+        [Space(10)]
+        [SerializeField] private Color colorChanged;
 
         private SpriteRenderer _spriteRenderer;
 
         private void Start()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
-            _obstacles = toilet.GetComponent<Obstacles>();
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.name == namePlayer)
+            if (other.gameObject.name == NamePlayer)
             {
                 OpenToilet();
-                ChangeColor();
+                ChangedColorSprite(_spriteRenderer, colorChanged);
             }
-        }
-
-        private void OpenToilet()
-        {
-            Destroy(_obstacles);
-            Destroy(lockToilet);
-            
-            toilet.tag = tagToilet;
-            
-            Destroy(gameObject);
-        }
-
-        private void ChangeColor()
-        {
-            _spriteRenderer.color = colorButtonChanged;
         }
     }
 }

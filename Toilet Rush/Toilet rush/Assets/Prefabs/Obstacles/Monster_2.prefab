@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2847346463827692526}
   - component: {fileID: 337034860179912005}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_2"
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1186ac87d8261d045ac2e3d9cf8683f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: {fileID: 1862802432774792458, guid: 86fc4dca630174b4a8d0358e9ae7946a, type: 3}
+  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
   nowScene: {fileID: 0}
 --- !u!1 &1197435019961196873
 GameObject:
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 2668539601192070205}
   - component: {fileID: 4038065485945210492}
   m_Layer: 0
-  m_Name: "<\u041A\u043E\u043D\u0442\u0443\u0440>"
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 488863957823172487}
   - component: {fileID: 5267156267536216937}
   m_Layer: 0
-  m_Name: "<\u041A\u043E\u043D\u0442\u0443\u0440>_1"
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 3475104459641072662}
   - component: {fileID: 8849163281383902268}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>"
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 2222794260737888135}
   - component: {fileID: 6308741401650895706}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_3"
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -590,7 +590,7 @@ GameObject:
   - component: {fileID: 7146044273609088983}
   - component: {fileID: 5137767970936174838}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_1"
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

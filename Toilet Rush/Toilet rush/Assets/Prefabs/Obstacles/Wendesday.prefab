@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1226102869684298700}
   - component: {fileID: 889534225629150500}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_14"
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 1118025301614592888}
   - component: {fileID: 8767798819184149680}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_8"
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 5929189845785453934}
   - component: {fileID: 8592343643596800043}
   m_Layer: 0
-  m_Name: "<\u042D\u043B\u043B\u0438\u043F\u0441>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>"
+  m_Name: 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 7059875688522237563}
   - component: {fileID: 3454019918272852811}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_7"
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 8189578764489058285}
   - component: {fileID: 9211142548113033318}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>"
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 6069935110777996143}
   - component: {fileID: 6092993106734094280}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_5"
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 8660485291878312760}
   - component: {fileID: 8065656541177105454}
   m_Layer: 0
-  m_Name: "<\u042D\u043B\u043B\u0438\u043F\u0441>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>"
+  m_Name: 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 5258701826017060387}
   - component: {fileID: 9017776926042857964}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_2"
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 5202159115223827251}
   - component: {fileID: 5202255489921978268}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_9"
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 108502537509503903}
   - component: {fileID: 5757044986793806514}
   m_Layer: 0
-  m_Name: "<\u042D\u043B\u043B\u0438\u043F\u0441>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>\_+\_<\u041A\u043E\u043D\u0442\u0443\u0440>_1"
+  m_Name: 21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 5566355955844854931}
   - component: {fileID: 7432750761171239020}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_15"
+  m_Name: 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1077,7 +1077,7 @@ GameObject:
   - component: {fileID: 5502957899059384665}
   - component: {fileID: 1824510012317454711}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_13"
+  m_Name: 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 1246675125288532828}
   - component: {fileID: 1071879025634075250}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_1"
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 1663611728878276231}
   - component: {fileID: 7853257248603914543}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_11"
+  m_Name: 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1426,7 +1426,7 @@ GameObject:
   - component: {fileID: 2268079356086219685}
   - component: {fileID: 7609673004696182367}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_16"
+  m_Name: 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1508,7 +1508,7 @@ GameObject:
   - component: {fileID: 5521181360544235026}
   - component: {fileID: 5151321556828482418}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_17"
+  m_Name: 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1590,7 +1590,7 @@ GameObject:
   - component: {fileID: 4479620796345462162}
   - component: {fileID: 7598682945764132052}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_6"
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1672,7 +1672,7 @@ GameObject:
   - component: {fileID: 5168342855133905473}
   - component: {fileID: 4443141427977189641}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_10"
+  m_Name: 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 5893516304282572218}
   - component: {fileID: 130125004319407666}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_4"
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1836,7 +1836,7 @@ GameObject:
   - component: {fileID: 8433782183088456324}
   - component: {fileID: 8197590894254795807}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_12"
+  m_Name: 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1918,7 +1918,7 @@ GameObject:
   - component: {fileID: 8681021204340405411}
   - component: {fileID: 8043406397533481973}
   m_Layer: 0
-  m_Name: "<\u0413\u0440\u0443\u043F\u043F\u0430>_3"
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
