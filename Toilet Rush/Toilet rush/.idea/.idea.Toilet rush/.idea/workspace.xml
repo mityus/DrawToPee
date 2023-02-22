@@ -22,22 +22,10 @@
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Key.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Monster_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Monster_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Monster_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Monster_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Trap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Trap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_10.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_14.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_18.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_18.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_19.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_19.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_20.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_20.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_23.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_23.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_25.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_25.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_26.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_26.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_28.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_28.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/ButtonHelp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/ButtonHelp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Loot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Loot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LeverArm.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LeverArm.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Cell 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Cell 1.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Develop/MouseNavi.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Develop/NaviControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TouchDraw.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BezierCurve.cs" />
@@ -113,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/ButtonHelp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +114,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -218,6 +206,9 @@
       <workItem from="1676752882565" duration="1397000" />
       <workItem from="1676904104379" duration="3201000" />
       <workItem from="1676996009419" duration="5708000" />
+      <workItem from="1677080424423" duration="611000" />
+      <workItem from="1677081062288" duration="43000" />
+      <workItem from="1677081165546" duration="2366000" />
     </task>
     <servers />
   </component>
@@ -242,14 +233,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="708" y="344" key="#Notifications" timestamp="1672764286714">
+    <state x="708" y="344" key="#Notifications" timestamp="1677081197295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="708" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1672764286714" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1675461919351">
+    <state x="708" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1677081197295" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1677080455221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1675461919351" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1677080455221" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1676996509963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

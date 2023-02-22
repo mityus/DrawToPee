@@ -105,6 +105,7 @@
             </e>
             <e p="IEnemyMovement.cs" t="Include" />
             <e p="Key.cs" t="Include" />
+            <e p="LevelArm.cs" t="Include" />
             <e p="Loot.cs" t="Include" />
             <e p="Obstacles.cs" t="Include" />
           </e>
