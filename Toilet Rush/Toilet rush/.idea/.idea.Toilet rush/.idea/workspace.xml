@@ -22,10 +22,16 @@
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LeverArm.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LeverArm.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Locomotive 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Locomotive 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LoverArm/ChangeArm.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LoverArm/ChangeArm.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Cell 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Cell 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_38.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_38.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Develop/NaviControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TouchDraw.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BezierCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmoother.cs" />
@@ -77,7 +82,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Car.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Cannon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/MovementEnemy.cs" />
@@ -100,7 +104,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/ButtonHelp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" />
       </list>
     </option>
   </component>
@@ -208,7 +214,8 @@
       <workItem from="1676996009419" duration="5708000" />
       <workItem from="1677080424423" duration="611000" />
       <workItem from="1677081062288" duration="43000" />
-      <workItem from="1677081165546" duration="2366000" />
+      <workItem from="1677081165546" duration="2881000" />
+      <workItem from="1677150687933" duration="1937000" />
     </task>
     <servers />
   </component>
@@ -245,5 +252,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1676996509963" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1677150775011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1677150775011" />
   </component>
 </project>

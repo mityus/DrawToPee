@@ -959,6 +959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeverArm
       objectReference: {fileID: 0}
+    - target: {fileID: 7867010551257931386, guid: 1eb525e37f9cbf74abda58de3d85c8bf, type: 3}
+      propertyPath: monsterGameObject
+      value: 
+      objectReference: {fileID: 2648895022958850317}
     - target: {fileID: 8826151417266048881, guid: 1eb525e37f9cbf74abda58de3d85c8bf, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1340,6 +1344,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2223d4d0bde74c4181c1312049cb543, type: 3}
+--- !u!1 &2648895022958850317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 866758349397533628, guid: c2223d4d0bde74c4181c1312049cb543, type: 3}
+  m_PrefabInstance: {fileID: 2937925706680799921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8672557970455683514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5809228295455961867, guid: c2223d4d0bde74c4181c1312049cb543, type: 3}
@@ -1476,14 +1485,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7241ccab840627349b777bafd925deb4, type: 3}
---- !u!4 &6352999936204654781 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7451023104755607504, guid: 7241ccab840627349b777bafd925deb4, type: 3}
-  m_PrefabInstance: {fileID: 4561365499151216493}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1431046341118025170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3211384094144803519, guid: 7241ccab840627349b777bafd925deb4, type: 3}
+  m_PrefabInstance: {fileID: 4561365499151216493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6352999936204654781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7451023104755607504, guid: 7241ccab840627349b777bafd925deb4, type: 3}
   m_PrefabInstance: {fileID: 4561365499151216493}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4561365499862076361

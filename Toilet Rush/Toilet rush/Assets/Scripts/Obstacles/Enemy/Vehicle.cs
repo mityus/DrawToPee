@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Obstacles.Enemy
 {
-    public class Car : Obstacles, IEnemyMovement
+    public class Vehicle : Obstacles, IEnemyMovement
     {
         [SerializeField] private Transform startPoint;
         [SerializeField] private Transform finishPoint;
