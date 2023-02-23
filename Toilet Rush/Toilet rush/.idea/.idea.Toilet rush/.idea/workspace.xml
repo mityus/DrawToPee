@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Locomotive 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Locomotive 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LoverArm/ChangeArm.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/LoverArm/ChangeArm.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_38.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_38.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Car.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Obstacles/Locomotive.psb.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +205,7 @@
       <workItem from="1677080424423" duration="611000" />
       <workItem from="1677081062288" duration="43000" />
       <workItem from="1677081165546" duration="2881000" />
-      <workItem from="1677150687933" duration="1937000" />
+      <workItem from="1677150687933" duration="1941000" />
     </task>
     <servers />
   </component>

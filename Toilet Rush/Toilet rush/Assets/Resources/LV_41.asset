@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LV_41
   m_EditorClassIdentifier: 
   id: 41
-  iconLevel: {fileID: 0}
-  prefabLevel: {fileID: 0}
+  iconLevel: {fileID: 21300000, guid: 6e936c665e78737499306165d675259a, type: 3}
+  prefabLevel: {fileID: 4701275936946250666, guid: 64e9cf9ff62902645a5a186031afd40a, type: 3}
   isClick: 0

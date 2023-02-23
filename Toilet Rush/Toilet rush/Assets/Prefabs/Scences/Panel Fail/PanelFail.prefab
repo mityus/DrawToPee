@@ -44,20 +44,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPrefab:
+  - {fileID: 8746385184122203116, guid: f5cc249da9e49eb49bab098059f1c127, type: 3}
   - {fileID: 8984919544246435972, guid: 4d55c9e1be0759a429cac254c07809f9, type: 3}
   - {fileID: 5167966134376656808, guid: a50b531ca7c9ca944a2a09c1d029e59b, type: 3}
   - {fileID: 3093500954630156071, guid: d36bddb9e969b284da18feedf8d24739, type: 3}
   - {fileID: 5512114155012103145, guid: bbf215d3571300a458a317ff90bc069f, type: 3}
   - {fileID: 4854533446983108645, guid: 2adc3da4ca1610b419b730f9da9f69f1, type: 3}
   - {fileID: 811622371919521437, guid: 8092e67f67584954f9838fe04cbc6a7d, type: 3}
+  - {fileID: 4226330135925036138, guid: 89b1af8b9114f7b44bcb5949c1c79098, type: 3}
   - {fileID: 4434144603955691336, guid: 8dce91abe2d520340a19b39cdee4f406, type: 3}
   - {fileID: 6013804599560618066, guid: 9ff880ffd39b41b4782cb2ca68734654, type: 3}
   - {fileID: 5796121340772929210, guid: e922edd871271734f935966289927a00, type: 3}
+  - {fileID: 4809002209353684178, guid: 9466e74057736b041b8bf0edcecb6afb, type: 3}
+  - {fileID: 8790027447306879937, guid: f10c11726c0425640a333d49471ed349, type: 3}
+  - {fileID: 2130721307276842244, guid: bdb35460b5d28ba4ba430dad633fe1fd, type: 3}
   - {fileID: 8211303470760844722, guid: 5a432a75859dd25439790f2e6e2c6aa2, type: 3}
-  - {fileID: 6248150950748803705, guid: bdb35460b5d28ba4ba430dad633fe1fd, type: 3}
+  - {fileID: 2228400595723500172, guid: 630d0073fa456bb44b4a9b09caf12059, type: 3}
+  - {fileID: 1574274491209990254, guid: 17d60efc4caabda428b07d66135d851a, type: 3}
+  - {fileID: 82034707554947479, guid: e04a0b9b4f43a2e4f97c6d57bf3bd011, type: 3}
   - {fileID: 7105544826665690849, guid: e363c0516ff5d224c8e1d61bf73b732f, type: 3}
   - {fileID: 9030476412356064996, guid: c28fe71595c4d3b43b3276070fdf1bb3, type: 3}
+  - {fileID: 1456055674084250080, guid: b6657f375b89e224eaad2f6a1368545c, type: 3}
   - {fileID: 428488661891283785, guid: 2af0cead62aa40e48b95c05d795635b5, type: 3}
+  - {fileID: 5003481729031216615, guid: f79175e858398d245b1c19fa467fbea9, type: 3}
   - {fileID: 5829648159219067730, guid: cd6cbd973f45fc74e8f35cbfbaebab02, type: 3}
   - {fileID: 8586228716781084020, guid: 7540baeb6ddc59f47ae05f1d54f9bb41, type: 3}
   - {fileID: 7502786017931856703, guid: 7697405e92e27c9428722a57be37591e, type: 3}
@@ -67,6 +76,24 @@ MonoBehaviour:
   - {fileID: 250969697631444313, guid: 2e4758e1d18c76440a5bfaa8143fcf72, type: 3}
   - {fileID: 5660483451508853899, guid: f3e2a82a020925f488a68ca931e4a54c, type: 3}
   - {fileID: 1778776725043380062, guid: 011848034f0d1b14f8ec50ab63da47a1, type: 3}
+  - {fileID: 7302956402829068114, guid: e807da26970c3a3409b3676c170dd584, type: 3}
+  - {fileID: 6576802817085537727, guid: ced2b93b4dbdfe045b3f66c69f6b1785, type: 3}
+  - {fileID: 5308452037333127460, guid: a47cfba5e4e3bc14182e16d67fed77d7, type: 3}
+  - {fileID: 2476876199682916252, guid: 3a4aae2194f4e8d429eefe98cc6ca38b, type: 3}
+  - {fileID: 4369586518003071439, guid: 253e9a2ae3e9aef4eb715b602b097478, type: 3}
+  - {fileID: 3485169443370196852, guid: 970c410c7599f624485585a51d4fd66a, type: 3}
+  - {fileID: 5746166150204116172, guid: e7e030f149d50c74c9b80af9df92f854, type: 3}
+  - {fileID: 9215784616744147272, guid: b583e44f8f7d302479c328b7583ea8ba, type: 3}
+  - {fileID: 4271533690994816747, guid: e735318c9be85f145adc78b9c6c8c5d8, type: 3}
+  - {fileID: 4701275936946250666, guid: 64e9cf9ff62902645a5a186031afd40a, type: 3}
+  - {fileID: 6638467082527940939, guid: ad543f865b27e0145a48b1d343a093c4, type: 3}
+  - {fileID: 1926878789250529007, guid: 3f258232d00f38c4b8b1e7a3e81dc365, type: 3}
+  - {fileID: 691088796278726046, guid: 6112f21465473594a91fb0d5ece26ad5, type: 3}
+  - {fileID: 7505426329760183056, guid: 072358186bcd98444835baf4a6d08cb9, type: 3}
+  - {fileID: 7602126339885519081, guid: 321685e04689c7b45b62301f9b1c9805, type: 3}
+  - {fileID: 8105969895812899223, guid: 7d10a1864a7281f4ba2c438a10cda1bf, type: 3}
+  - {fileID: 7171833048793904450, guid: 7690d0cff642f0641ac63191b92f89a7, type: 3}
+  - {fileID: 8879493594912107546, guid: 71968cbb86ec14b44a0305e8576e7c26, type: 3}
 --- !u!1 &2725094296874884567
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +217,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7791424234140556674}
         m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
-        m_MethodName: ResetLevel
+        m_MethodName: ReloadLvl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
