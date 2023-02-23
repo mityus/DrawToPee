@@ -1389,6 +1389,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: toilet
+      value: 
+      objectReference: {fileID: 8916798969726205707}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: tagToilet
+      value: ToiletF
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: lockToilet
+      value: 
+      objectReference: {fileID: 2041149409922751026}
+    - target: {fileID: 8960403464840422674, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
+      propertyPath: namePlayer
+      value: KissyMissyIdle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e15d391124e7144fab12c61976dcc75, type: 3}
 --- !u!4 &6878181452637299454 stripped

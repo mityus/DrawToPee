@@ -113,7 +113,7 @@ public class LevelManager : MonoBehaviour
       {
          if (_numberLevelSave < level)
          {
-            _numberLevelSave++;
+            _numberLevelSave = level;
             itemsButtons[_numberLevelSave].isClick = true;
             SaveDataLevels();
          }
