@@ -1507,6 +1507,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2202998375604420088, guid: eaa2d0a54bc557a429c4cb111fedc469, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 7505426329760183056}
     - target: {fileID: 8377305715478947079, guid: eaa2d0a54bc557a429c4cb111fedc469, type: 3}
       propertyPath: m_Name
       value: Labyrinthai
@@ -1635,6 +1639,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2202998375604420088, guid: eaa2d0a54bc557a429c4cb111fedc469, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 7505426329760183056}
     - target: {fileID: 8377305715478947079, guid: eaa2d0a54bc557a429c4cb111fedc469, type: 3}
       propertyPath: m_Name
       value: Labyrinthai (1)
@@ -1653,6 +1661,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7505426329760183087}
     m_Modifications:
+    - target: {fileID: 693885705401258784, guid: 78f74758769486e40a6a9146efd011ec, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 7505426329760183056}
     - target: {fileID: 2591921704591023555, guid: 78f74758769486e40a6a9146efd011ec, type: 3}
       propertyPath: m_RootOrder
       value: 15

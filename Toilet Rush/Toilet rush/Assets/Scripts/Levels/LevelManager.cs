@@ -113,9 +113,18 @@ public class LevelManager : MonoBehaviour
       {
          if (_numberLevelSave < level)
          {
-            _numberLevelSave = level;
-            itemsButtons[_numberLevelSave].isClick = true;
-            SaveDataLevels();
+            if (level == 50)
+            {
+               _numberLevelSave = level;
+               Debug.Log(_numberLevelSave);
+            }
+            
+            else
+            {
+               _numberLevelSave = level;
+               itemsButtons[_numberLevelSave].isClick = true;
+               SaveDataLevels();
+            }
          }
          
          _buttonController.AddScene(winScene, nowScene);
