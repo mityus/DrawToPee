@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +97,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
       </list>
     </option>
   </component>
@@ -210,7 +211,8 @@
       <workItem from="1677177254614" duration="100000" />
       <workItem from="1677184725684" duration="1272000" />
       <workItem from="1677445281000" duration="765000" />
-      <workItem from="1677496006050" duration="393000" />
+      <workItem from="1677496006050" duration="466000" />
+      <workItem from="1677521733934" duration="855000" />
     </task>
     <servers />
   </component>
