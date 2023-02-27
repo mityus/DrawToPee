@@ -45,4 +45,14 @@ public class ButtonController : MonoBehaviour
       Destroy(nowScene);
       Instantiate(_levelsList[InformationLevel.NextLevel], Vector3.zero, Quaternion.identity);
    }
+
+   // public void PlayAudio()
+   // {
+   //    Instantiate(_levelsList[InformationLevel.NextLevel], Vector3.zero, Quaternion.identity);
+   // }
+   //
+   // public void SwitchOffAudio()
+   // {
+   //    Destroy();
+   // }
 }

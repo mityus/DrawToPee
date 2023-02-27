@@ -72,6 +72,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+          </e>
           <e p="Button" t="Include">
             <e p="ButtonController.cs" t="Include" />
           </e>

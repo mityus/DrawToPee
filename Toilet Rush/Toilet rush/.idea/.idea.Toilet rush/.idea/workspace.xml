@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_21.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_29.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_29.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_34.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_34.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_45.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_45.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_50.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_50.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TouchDraw.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BezierCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmoother.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmootherEditor.cs" />
@@ -101,8 +95,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -214,7 +209,8 @@
       <workItem from="1677150687933" duration="1941000" />
       <workItem from="1677177254614" duration="100000" />
       <workItem from="1677184725684" duration="1272000" />
-      <workItem from="1677445281000" duration="761000" />
+      <workItem from="1677445281000" duration="765000" />
+      <workItem from="1677496006050" duration="393000" />
     </task>
     <servers />
   </component>
