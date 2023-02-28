@@ -46,7 +46,7 @@ namespace Levels
             //_buttonLevelPrefab.textLevel.text = "LV " + _indexLevel;
          
             Button newButton = Instantiate(buttonPrefab, Vector3.zero, quaternion.identity, panelLevels);
-            newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LV " + item.id;
+            newButton.GetComponent<ButtonLevelPrefab>().textLevel.text = "LVL " + item.id;
             //newButton.onClick.AddListener((() => AddLevel(item.PrefabLevel)));
             newButton.onClick.AddListener((() => _buttonController.AddScene(item.prefabLevel, nowScene)));
             newButton.enabled = item.isClick;

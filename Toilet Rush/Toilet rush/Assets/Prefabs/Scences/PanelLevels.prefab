@@ -547,7 +547,7 @@ MonoBehaviour:
   m_StartAxis: 1
   m_CellSize: {x: 400, y: 500}
   m_Spacing: {x: 128.3, y: 100}
-  m_Constraint: 0
+  m_Constraint: 2
   m_ConstraintCount: 2
 --- !u!1 &1992179303261903301
 GameObject:
@@ -894,3 +894,4 @@ MonoBehaviour:
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 1992179303261903301}
   isPanelResult: 0
+  audioBackground: {fileID: 0}
