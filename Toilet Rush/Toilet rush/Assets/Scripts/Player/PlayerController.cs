@@ -66,6 +66,7 @@ namespace Player
             }
         }
 
+#if UNITY_ANDROID
         private void OnMouseDown()
         {
             if (_isDraw)
@@ -85,7 +86,7 @@ namespace Player
             _isDraw = false;
             _isMovement = true;
         }
-    
+#endif
         private void StartLine()
         {
             if (_drawing != null)

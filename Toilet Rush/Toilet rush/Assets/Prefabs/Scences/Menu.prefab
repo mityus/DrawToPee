@@ -167,6 +167,7 @@ MonoBehaviour:
   newScene: {fileID: 1992179303261903301, guid: 7a8815ecbb1027747acf29f8a4f7cc4e, type: 3}
   nowScene: {fileID: 6882067621373265402}
   isPanelResult: 0
+  audioBackground: {fileID: 0}
 --- !u!1 &582709951550900990
 GameObject:
   m_ObjectHideFlags: 0

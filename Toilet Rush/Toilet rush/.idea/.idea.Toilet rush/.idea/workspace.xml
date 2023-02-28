@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/ButtonLevel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/ButtonLevel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Button/LevelsPrefabs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsPrefabs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ClashPlayers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InformationLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Loot.cs" />
@@ -98,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -213,6 +216,7 @@
       <workItem from="1677496006050" duration="466000" />
       <workItem from="1677521733934" duration="1165000" />
       <workItem from="1677535403504" duration="649000" />
+      <workItem from="1677617101538" duration="1478000" />
     </task>
     <servers />
   </component>
