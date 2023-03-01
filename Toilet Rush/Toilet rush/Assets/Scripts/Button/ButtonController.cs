@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Audio;
 using UnityEngine;
 
 public class ButtonController : MonoBehaviour
@@ -12,8 +11,6 @@ public class ButtonController : MonoBehaviour
    [SerializeField] private bool isPanelResult;
    
    private List<GameObject> _levelsList = new List<GameObject>();
-
-   [SerializeField] private AudioSource audioBackground;
 
    private void Start()
    {
@@ -52,11 +49,23 @@ public class ButtonController : MonoBehaviour
 
    public void PlayAudio()
    {
-      
+      AudioSource audioBackground = FindObjectOfType<AudioSource>();
+      AudioSource audioComponent = audioBackground.GetComponent<AudioSource>();
+
+      if (!audioComponent.enabled)
+      {
+         audioComponent.enabled = true;
+      }
    }
-   
+
    public void SwitchOffAudio()
    {
+      AudioSource audioBackground = FindObjectOfType<AudioSource>();
+      AudioSource audioComponent = audioBackground.GetComponent<AudioSource>();
 
+      if (audioComponent.enabled)
+      {
+         audioComponent.enabled = false;
+      }
    }
 }

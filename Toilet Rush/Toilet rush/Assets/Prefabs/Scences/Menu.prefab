@@ -120,7 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7683540316977082721}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2490005496016841184}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: SwitchOffAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &44857484301046525
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +179,6 @@ MonoBehaviour:
   newScene: {fileID: 1992179303261903301, guid: 7a8815ecbb1027747acf29f8a4f7cc4e, type: 3}
   nowScene: {fileID: 6882067621373265402}
   isPanelResult: 0
-  audioBackground: {fileID: 0}
 --- !u!1 &582709951550900990
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +991,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6821745643468235587}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2490005496016841184}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6241493293690233896
 GameObject:
   m_ObjectHideFlags: 0

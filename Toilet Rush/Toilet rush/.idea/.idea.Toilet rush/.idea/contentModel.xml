@@ -72,9 +72,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Audio" t="Include">
-            <e p="AudioManager.cs" t="Include" />
-          </e>
           <e p="Button" t="Include">
             <e p="ButtonController.cs" t="Include" />
           </e>
@@ -117,6 +114,7 @@
           </e>
           <e p="Saving" t="Include">
             <e p="Data.cs" t="Include" />
+            <e p="LoadManager.cs" t="Include" />
             <e p="SaveSystem.cs" t="Include" />
           </e>
         </e>

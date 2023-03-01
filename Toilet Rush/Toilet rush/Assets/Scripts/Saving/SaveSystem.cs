@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using Levels;
 
 namespace Saving
 {
@@ -16,6 +17,7 @@ namespace Saving
             Data data = new Data(levelManager);
             
             binaryFormatter.Serialize(stream, data);
+            Debug.Log("Saved path: " + path);
             stream.Close();
         }
         
@@ -29,6 +31,10 @@ namespace Saving
                 FileStream stream = new FileStream(path, FileMode.Open);
 
                 Data data = binaryFormatter.Deserialize(stream) as Data;
+                
+                Debug.Log("Load path: " + path);
+                Debug.Log(data.numberSaveLevel);
+                
                 stream.Close();
 
                 return data;

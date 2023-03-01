@@ -21,17 +21,22 @@
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Upgrade/ETFX 2019.4.24f1 URP Upgrade.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/Animation/Head Fail.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/Animation/Head Fail.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/PanelFail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/PanelFail.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LV_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LV_5.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Atlas/Ocean.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Atlas/Ocean.spriteatlas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Atlas/Dungeon.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Atlas/Dungeon.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Monster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Cannon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/ButtonHelp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BezierCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmoother.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmootherEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Develop.cs" />
@@ -72,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Levels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ButtonLevelPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ItemButton.cs" />
@@ -102,10 +106,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" />
       </list>
     </option>
@@ -224,6 +230,8 @@
       <workItem from="1677535403504" duration="649000" />
       <workItem from="1677617101538" duration="1478000" />
       <workItem from="1677623568738" duration="841000" />
+      <workItem from="1677666560111" duration="5458000" />
+      <workItem from="1677678129355" duration="3131000" />
     </task>
     <servers />
   </component>
