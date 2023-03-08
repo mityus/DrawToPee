@@ -5,37 +5,18 @@ using UnityEngine;
 
 namespace Obstacles.Enemy
 {
-    public class Bomb : MonoBehaviour
+    public class Bomb : Obstacles
     {
-        [Header("Panels")] 
-        [SerializeField] private GameObject newPanel;
-        [SerializeField] private GameObject nowPanel;
-        
         [SerializeField] private float speedMovement;
 
         private void Awake()
         {
-            nowPanel = transform.parent.gameObject;
+            NowScene = transform.parent.gameObject;
         }
 
         private void Update()
         {
             transform.Translate(-speedMovement * Time.deltaTime, 0, 0);
-        }
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                Destroy(nowPanel);
-                Instantiate(newPanel, nowPanel.transform.position, Quaternion.identity);    
-            }
-            
-            if (other.gameObject.name == "Wall")
-            {
-                Destroy(gameObject);
-            }
-            
         }
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Levels.Common;
 using Saving;
@@ -14,11 +15,13 @@ namespace Levels
       [SerializeField] private int level;
       [SerializeField] private int countPlayers;
       public int CountPlayers => countPlayers;
-
+      
+      
+      [Header("Scene")]
       [SerializeField] private GameObject nowScene;
       [SerializeField] private GameObject winScene;
       [SerializeField] private GameObject failScene;
-   
+      
       private int _countingPlayersInLavel;
       private int _numberLevelSave = 0;
 
@@ -104,7 +107,7 @@ namespace Levels
          }
       }
 
-      public void ReachGoal()
+      public void ReachGoal(Transform player)
       {
          _countingPlayersInLavel++;
 
@@ -125,16 +128,30 @@ namespace Levels
                   SaveDataLevels();
                }
             }
-         
-            _buttonController.AddScene(winScene, nowScene);
+            
+            StartCoroutine(DetaitLvl(winScene, nowScene));
+            
+            //_buttonController.AddScene(winScene, nowScene);
+            
             Debug.Log("Win!");
          }
       }
 
       public void LoseLvl()
       {
-         _buttonController.AddScene(failScene, nowScene);
+         StartCoroutine(DetaitLvl(failScene, nowScene));
+         
+         // _buttonController.AddScene(failScene, nowScene);
+         
          Debug.Log("Lose!");
+         
+      }
+
+      private IEnumerator DetaitLvl(GameObject newScene, GameObject nowLvl)
+      {
+         yield return new WaitForSeconds(1.5f);
+         
+         _buttonController.AddScene(newScene, nowLvl);
       }
    }
 }

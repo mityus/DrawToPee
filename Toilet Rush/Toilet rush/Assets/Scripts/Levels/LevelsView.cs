@@ -67,16 +67,19 @@ namespace Levels
       {
          Data data = SaveSystem.LoadData();
 
-         for (int i = 0; i < data.numberSaveLevel + 1; i++)
+         if (data.numberSaveLevel > 0)
          {
-            if (data.numberSaveLevel + 1 == 51)
+            for (int i = 0; i < data.numberSaveLevel + 1; i++)
             {
-               return;
-            }
-            else
-            {
-               startItems[i].isClick = data.itemClick[i];
-            }
+               if (data.numberSaveLevel + 1 == 51)
+               {
+                  return;
+               }
+               else
+               {
+                  startItems[i].isClick = data.itemClick[i];
+               }
+            }  
          }
       }
    }

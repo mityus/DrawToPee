@@ -467,6 +467,7 @@ Transform:
   - {fileID: 707567737530266890}
   - {fileID: 7977725498815935821}
   - {fileID: 7447503546667184164}
+  - {fileID: 1549482621610283662}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1132,6 +1133,50 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6986697, y: 2.5484066}
   m_EdgeRadius: 0
+--- !u!1 &6690653878266078651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549482621610283662}
+  - component: {fileID: 981820881875653265}
+  m_Layer: 0
+  m_Name: EffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549482621610283662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690653878266078651}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4271533690994816724}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &981820881875653265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690653878266078651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f88455c2bb6d3d47855f6c9a33e7940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winEffectPrefab: {fileID: 2911381782964010063, guid: 4c1fcdeda04f50f4ca64218f9112fb7b, type: 3}
 --- !u!1001 &707567736711453569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1187,6 +1232,10 @@ PrefabInstance:
       propertyPath: parentPoint
       value: 
       objectReference: {fileID: 4271533690592016276}
+    - target: {fileID: 2277176159080500025, guid: 662b6c9488873204d940abb554d237c7, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 6690653878266078651}
     - target: {fileID: 2355514612477072356, guid: 662b6c9488873204d940abb554d237c7, type: 3}
       propertyPath: m_Bounds.m_Center.x
       value: 0.00013415515
@@ -1439,14 +1488,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7241ccab840627349b777bafd925deb4, type: 3}
---- !u!4 &7977725498815935821 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7451023104755607504, guid: 7241ccab840627349b777bafd925deb4, type: 3}
-  m_PrefabInstance: {fileID: 707567736763470493}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2684402432720986146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3211384094144803519, guid: 7241ccab840627349b777bafd925deb4, type: 3}
+  m_PrefabInstance: {fileID: 707567736763470493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7977725498815935821 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7451023104755607504, guid: 7241ccab840627349b777bafd925deb4, type: 3}
   m_PrefabInstance: {fileID: 707567736763470493}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4271533690321526694
@@ -1777,6 +1826,10 @@ PrefabInstance:
       propertyPath: parentPoint
       value: 
       objectReference: {fileID: 4271533690592016276}
+    - target: {fileID: 2277176159080500025, guid: 662b6c9488873204d940abb554d237c7, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 6690653878266078651}
     - target: {fileID: 2355514612477072356, guid: 662b6c9488873204d940abb554d237c7, type: 3}
       propertyPath: m_Bounds.m_Center.x
       value: 0.00013391674
@@ -2050,6 +2103,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4271533690994816724}
     m_Modifications:
+    - target: {fileID: 693885705401258784, guid: 78f74758769486e40a6a9146efd011ec, type: 3}
+      propertyPath: nowScene
+      value: 
+      objectReference: {fileID: 4271533690994816747}
+    - target: {fileID: 693885705401258784, guid: 78f74758769486e40a6a9146efd011ec, type: 3}
+      propertyPath: obstacleEffect
+      value: 
+      objectReference: {fileID: 19819134, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
     - target: {fileID: 2591921704591023555, guid: 78f74758769486e40a6a9146efd011ec, type: 3}
       propertyPath: m_RootOrder
       value: 14

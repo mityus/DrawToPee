@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a96407d26ec4dbe9b90bf2c9a94a737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newPanel: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
-  nowPanel: {fileID: 0}
+  newScene: {fileID: 811622371919521437, guid: 8092e67f67584954f9838fe04cbc6a7d, type: 3}
+  nowScene: {fileID: 0}
+  obstacleEffect: {fileID: 19819134, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
   speedMovement: 2

@@ -340,8 +340,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.056726992, y: 0.89704233}
-  m_Size: {x: 0.66169095, y: 1.5997893}
+  m_Offset: {x: -0.051717877, y: 0.67632985}
+  m_Size: {x: 0.5992799, y: 1.3290093}
   m_Direction: 0
 --- !u!95 &8822311729945829473
 Animator:
@@ -374,14 +374,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1041b9532ab54459fe3b9076943099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMovement: 4
+  speedMovement: 2
   tagAim: ToiletF
   linePrefab: {fileID: 2034854826343893418, guid: 062838530c1dd7c44a042097f62bf045, type: 3}
   pointPrefab: {fileID: 3211384094144803519, guid: 7241ccab840627349b777bafd925deb4, type: 3}
   firstPoint: {fileID: 0}
   stepDistance: 1
   parentPoint: {fileID: 0}
-  failScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
+  obstcleEffect: {fileID: 119968, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
 --- !u!1 &2602106943225894248
 GameObject:
   m_ObjectHideFlags: 0

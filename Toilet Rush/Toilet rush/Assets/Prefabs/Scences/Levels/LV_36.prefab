@@ -46,6 +46,50 @@ MonoBehaviour:
   newScene: {fileID: 6882067621373265402, guid: 0f336a255a0f11542a1796b8187dc705, type: 3}
   nowScene: {fileID: 4369586518003071439}
   isPanelResult: 0
+--- !u!1 &1338548493149168042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4106923860859649463}
+  - component: {fileID: 9174189600048786852}
+  m_Layer: 0
+  m_Name: EffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4106923860859649463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338548493149168042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4369586518003071472}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9174189600048786852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338548493149168042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f88455c2bb6d3d47855f6c9a33e7940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winEffectPrefab: {fileID: 2911381782964010063, guid: 4c1fcdeda04f50f4ca64218f9112fb7b, type: 3}
 --- !u!1 &4369586516208763856
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +483,7 @@ Transform:
   - {fileID: 1900498119320902693}
   - {fileID: 8177959831511795285}
   - {fileID: 4511839863785864845}
+  - {fileID: 4106923860859649463}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -969,6 +1014,10 @@ PrefabInstance:
       propertyPath: finishPoint
       value: 
       objectReference: {fileID: 5997899143660921382}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: obstacleEffect
+      value: 
+      objectReference: {fileID: 19819134, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
     - target: {fileID: 3995981671676544485, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: m_Name
       value: car01
@@ -1306,6 +1355,10 @@ PrefabInstance:
       propertyPath: parentPoint
       value: 
       objectReference: {fileID: 4369586517103780455}
+    - target: {fileID: 2277176159080500025, guid: 662b6c9488873204d940abb554d237c7, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 1338548493149168042}
     - target: {fileID: 2355514612477072356, guid: 662b6c9488873204d940abb554d237c7, type: 3}
       propertyPath: m_Bounds.m_Center.x
       value: 0.00013391674
@@ -1607,6 +1660,10 @@ PrefabInstance:
       propertyPath: pointPrefab
       value: 
       objectReference: {fileID: 3211384094144803519, guid: 7241ccab840627349b777bafd925deb4, type: 3}
+    - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 1338548493149168042}
     - target: {fileID: 5426351553684166224, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
       propertyPath: m_Bounds.m_Center.x
       value: 0.2231007
@@ -1958,6 +2015,10 @@ PrefabInstance:
       propertyPath: parentPoint
       value: 
       objectReference: {fileID: 4369586517103780455}
+    - target: {fileID: 2277176159080500025, guid: 662b6c9488873204d940abb554d237c7, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 1338548493149168042}
     - target: {fileID: 2355514612477072356, guid: 662b6c9488873204d940abb554d237c7, type: 3}
       propertyPath: m_Bounds.m_Center.x
       value: 0.00013399124

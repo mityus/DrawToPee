@@ -78,6 +78,9 @@
           <e p="Develop" t="Include">
             <e p="Point.cs" t="Include" />
           </e>
+          <e p="Effects" t="Include">
+            <e p="EffectManager.cs" t="Include" />
+          </e>
           <e p="FailWin" t="Include">
             <e p="FailManager.cs" t="Include" />
           </e>

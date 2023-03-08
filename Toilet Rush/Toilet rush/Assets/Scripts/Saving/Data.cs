@@ -1,5 +1,6 @@
 using System;
 using Levels;
+using Saving;
 
 [Serializable]
 public class Data
@@ -8,6 +9,8 @@ public class Data
 
     public int[] itemID;
     public bool[] itemClick;
+
+    public bool isFirstStart;
 
     public Data(LevelManager levelManager)
     {
@@ -25,5 +28,10 @@ public class Data
         {
             itemClick[i] = levelManager.itemsButtons[i].isClick;
         }
+    }
+
+    public Data(LoadManager loadManager)
+    {
+        isFirstStart = loadManager.IsFirstStart;
     }
 }

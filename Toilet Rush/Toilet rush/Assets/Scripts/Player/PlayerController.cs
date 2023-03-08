@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Effects;
 using Levels;
 using UnityEngine;
 using Line = Line.Line;
@@ -23,6 +24,11 @@ namespace Player
         [SerializeField] private float stepDistance = 2f;
         [SerializeField] private Transform parentPoint;
 
+        [Space] 
+        [Header("Effect")] [SerializeField] private GameObject obstcleEffect;
+
+        [SerializeField] private GameObject effectManager;
+
         private Coroutine _drawing;
         private Vector3 _positionPoint;
         private List<GameObject> _pointList = new List<GameObject>();
@@ -38,6 +44,8 @@ namespace Player
         
         private LevelManager _levelManager;
 
+        private EffectManager _effectManager;
+
         private void Awake()
         {
             firstPoint.transform.position = transform.position;
@@ -50,6 +58,10 @@ namespace Player
             _positionPoint = firstPoint.transform.position;
             
             _animator = GetComponent<Animator>();
+            
+            _pointList.Add(firstPoint);
+
+            _effectManager = effectManager.GetComponent<EffectManager>();
 
         }
 
@@ -158,9 +170,11 @@ namespace Player
                         {
                             _pointList.Clear();
                             _isMovement = false;
-                            LevelManager.Instance.ReachGoal();
+                            
+                            _effectManager.PlayEffect(_effectManager.WinEffect, gameObject.transform);
+                            
+                            LevelManager.Instance.ReachGoal(gameObject.transform);
                         }
-
                         else
                         {
                             LevelManager.Instance.LoseLvl();
@@ -181,7 +195,19 @@ namespace Player
 
             if (InformationLevel.LoseStatus == 1)
             {
-                if (other.gameObject.CompareTag("Player")) LevelManager.Instance.LoseLvl();
+                if (other.gameObject.CompareTag("Player"))
+                {
+                    Instantiate(obstcleEffect, gameObject.transform.position,
+                        Quaternion.identity, gameObject.transform.parent);
+                    
+                    Destroy(gameObject.GetComponent<CapsuleCollider2D>());
+                    Destroy(other.gameObject.GetComponent<CapsuleCollider2D>());
+                    
+                    Destroy(other.gameObject.GetComponent<PlayerController>());
+                    Destroy(gameObject.GetComponent<PlayerController>());
+
+                    LevelManager.Instance.LoseLvl();
+                }
             }
         }
     }

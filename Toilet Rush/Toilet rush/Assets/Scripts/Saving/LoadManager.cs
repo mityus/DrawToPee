@@ -5,14 +5,15 @@ namespace Saving
 {
     public class LoadManager : MonoBehaviour
     {
+        private bool isFirstStart;
+        public bool IsFirstStart => isFirstStart;
+
         private void Awake()
         {
-            LoadInformationGame();
-        }
-
-        private void LoadInformationGame()
-        {
-            SaveSystem.LoadData();
+            if (!isFirstStart)
+            {
+                SaveSystem.CreateDataFile(this);
+            }
         }
     }
 }

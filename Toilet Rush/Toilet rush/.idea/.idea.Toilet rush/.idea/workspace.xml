@@ -21,22 +21,78 @@
   <component name="ChangeListManager">
     <list default="true" id="3b2039ca-00fd-4e6c-b2ce-8e2afd9ccf8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Toilet rush/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodShowerLoop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodShowerLoop.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit/RoundHitGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit/RoundHitGreen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Death/Skulls/GenericDeath.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Death/Skulls/GenericDeath.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeWhiteTrail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeWhiteTrail.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Cannon/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Cannon/Bomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Players/HaggyWaggyIdle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Players/HaggyWaggyIdle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Players/KissyMissyIdle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Players/KissyMissyIdle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Points/PointBig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Points/PointBig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_10.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_11.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_11.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_12.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_12.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_13.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_14.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_15.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_15.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_16.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_16.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_17.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_17.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_18.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_18.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_19.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_19.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_20.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_20.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_21.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_22.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_22.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_23.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_23.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_24.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_24.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_25.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_25.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_26.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_26.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_27.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_27.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_28.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_28.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_29.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_29.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_30.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_30.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_31.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_32.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_32.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_33.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_33.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_34.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_34.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_35.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_35.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_36.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_36.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_37.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_37.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_38.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_38.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_39.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_39.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_40.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_40.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_41.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_41.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_42.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_42.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_43.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_43.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_44.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_44.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_45.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_45.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_46.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_46.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_47.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_47.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_48.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_48.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_49.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_49.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_50.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_50.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_7.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_8.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_9.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Levels/LV_9.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Menu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/Animation/Head Fail.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/Animation/Head Fail.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/PanelFail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/Panel Fail/PanelFail.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LV_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LV_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scences/PanelLevels.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scences/PanelLevels.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +105,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FailWin/FailManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Monster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/EffectManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Cannon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,8 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmoother.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LineRendererSmootherEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Develop.cs" />
         <option value="$PROJECT_DIR$/Assets/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
@@ -77,7 +132,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Levels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ButtonLevelPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/ItemButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Common/InputConfig.cs" />
@@ -85,7 +139,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Car.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Cannon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/MovementEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/EnemyMovement.cs" />
@@ -103,16 +156,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Key.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/ButtonHelp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/LevelArm.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Vehicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Enemy/Bomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/EffectPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/SaveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saving/LoadManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Button/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/EffectManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Obstacles.cs" />
       </list>
     </option>
   </component>
@@ -232,6 +289,13 @@
       <workItem from="1677623568738" duration="841000" />
       <workItem from="1677666560111" duration="5458000" />
       <workItem from="1677678129355" duration="3131000" />
+      <workItem from="1677774513451" duration="1680000" />
+      <workItem from="1677788247770" duration="6595000" />
+      <workItem from="1677875390297" duration="2531000" />
+      <workItem from="1678048332504" duration="4725000" />
+      <workItem from="1678057927288" duration="1898000" />
+      <workItem from="1678135892909" duration="4060000" />
+      <workItem from="1678284728454" duration="9269000" />
     </task>
     <servers />
   </component>
