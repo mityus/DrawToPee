@@ -5,10 +5,11 @@ namespace Effects
 {
     public class EffectManager : MonoBehaviour
     {
-        //[SerializeField] private ParticleSystem failEffect;
+        [SerializeField] private ParticleSystem failEffectPrefab;
         [SerializeField] private ParticleSystem winEffectPrefab;
 
         public ParticleSystem WinEffect { get => winEffectPrefab; }
+        public ParticleSystem FailEffectPrefab => failEffectPrefab;
 
         public void PlayEffect(ParticleSystem effect, Transform go)
         {

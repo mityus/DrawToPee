@@ -149,7 +149,7 @@ namespace Levels
 
       private IEnumerator DetaitLvl(GameObject newScene, GameObject nowLvl)
       {
-         yield return new WaitForSeconds(1.5f);
+         yield return new WaitForSeconds(3f);
          
          _buttonController.AddScene(newScene, nowLvl);
       }

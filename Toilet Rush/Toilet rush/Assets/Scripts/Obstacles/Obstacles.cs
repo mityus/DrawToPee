@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Effects;
 using Player;
@@ -17,47 +18,46 @@ namespace Obstacles
         }
 
         [Header("Effect")]
-        [SerializeField] private ParticleSystem obstacleEffect;
+        [SerializeField] private GameObject effectManager;
 
         private ButtonController _buttonController;
+        private EffectManager _effectManager;
 
         private void Awake()
         {
             _buttonController = gameObject.AddComponent<ButtonController>();
         }
 
+        private void Start()
+        {
+            _effectManager = effectManager.GetComponent<EffectManager>();
+        }
+
         public void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                Debug.Log("Fail!");
-                
                 PlayFail(other);
-            }
-
-            if (gameObject.name == "Bomb")
-            {
-                if (other.gameObject.name == "Wall")
-                {
-                    Destroy(gameObject);
-                }
             }
         }
         
         private IEnumerator DetaitLvl()
         {
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(3f);
          
             _buttonController.AddScene(newScene, nowScene);
         }
 
-        private void PlayFail(Collider2D player)
+        private void PlayFail(Collider2D other)
         {
-            Destroy(player.GetComponent<PlayerController>());
+            Debug.Log("Fail!");
             
-            Instantiate(obstacleEffect.gameObject, player.transform.position, Quaternion.identity, 
-                gameObject.transform);
+            _effectManager.PlayEffect(_effectManager.FailEffectPrefab, other.gameObject.transform);
             
+            Destroy(other.gameObject.GetComponent<PlayerController>());
+            
+            if(gameObject.name == "Bomb") Destroy(gameObject);
+
             StartCoroutine(DetaitLvl());
         }
     }
