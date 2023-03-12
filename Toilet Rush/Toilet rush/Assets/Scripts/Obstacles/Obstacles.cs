@@ -11,12 +11,7 @@ namespace Obstacles
         [Header("Scene")]
         [SerializeField] private GameObject newScene;
         [SerializeField] private GameObject nowScene;
-        public GameObject NowScene
-        {
-            get => nowScene;
-            set => nowScene = value;
-        }
-
+        
         [Header("Effect")]
         [SerializeField] private GameObject effectManager;
 
@@ -30,6 +25,7 @@ namespace Obstacles
 
         private void Start()
         {
+            print(newScene);
             _effectManager = effectManager.GetComponent<EffectManager>();
         }
 
@@ -55,7 +51,7 @@ namespace Obstacles
             _effectManager.PlayEffect(_effectManager.FailEffectPrefab, other.gameObject.transform);
             
             Destroy(other.gameObject.GetComponent<PlayerController>());
-            
+
             if(gameObject.name == "Bomb") Destroy(gameObject);
 
             StartCoroutine(DetaitLvl());

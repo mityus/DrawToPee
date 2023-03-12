@@ -186,7 +186,6 @@
           <e p="Obstacles" t="Include">
             <e p="ButtonHelp.cs" t="Include" />
             <e p="Enemy" t="Include">
-              <e p="Bomb.cs" t="Include" />
               <e p="Cannon.cs" t="Include" />
               <e p="Monster.cs" t="Include" />
               <e p="Vehicle.cs" t="Include" />

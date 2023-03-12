@@ -744,7 +744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
   nowScene: {fileID: 428488661891283785}
-  obstacleEffect: {fileID: 19819134, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
+  effectManager: {fileID: 7959469855153193938}
 --- !u!1 &2041149409922751026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,6 +2186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f88455c2bb6d3d47855f6c9a33e7940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failEffectPrefab: {fileID: 1712591600216471778, guid: 79cff47fe1369e540a9976d474eb62b4, type: 3}
   winEffectPrefab: {fileID: 2911381782964010063, guid: 4c1fcdeda04f50f4ca64218f9112fb7b, type: 3}
 --- !u!1 &8916798969726205707
 GameObject:

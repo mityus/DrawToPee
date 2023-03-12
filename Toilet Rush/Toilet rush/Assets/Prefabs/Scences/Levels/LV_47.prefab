@@ -859,6 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f88455c2bb6d3d47855f6c9a33e7940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failEffectPrefab: {fileID: 1712591600216471778, guid: 79cff47fe1369e540a9976d474eb62b4, type: 3}
   winEffectPrefab: {fileID: 2911381782964010063, guid: 4c1fcdeda04f50f4ca64218f9112fb7b, type: 3}
 --- !u!1 &8105969895163859359
 GameObject:
@@ -1419,7 +1420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
   nowScene: {fileID: 8105969895812899223}
-  obstacleEffect: {fileID: 19819134, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
+  effectManager: {fileID: 5702335428894950449}
   startPoint: {fileID: 5381804584314808144}
   finishPoint: {fileID: 5381804584009551433}
   speedMove: 3
@@ -1504,6 +1505,10 @@ PrefabInstance:
       propertyPath: finishPoint
       value: 
       objectReference: {fileID: 2297119600118069886}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 5702335428894950449}
     - target: {fileID: 3995981671676544485, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: m_Name
       value: car01
@@ -1587,6 +1592,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8105969895812899223}
     - target: {fileID: 3099436161343439822, guid: 6f59b329e0096464f90f60a293c1267a, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 5702335428894950449}
+    - target: {fileID: 3099436161343439822, guid: 6f59b329e0096464f90f60a293c1267a, type: 3}
       propertyPath: obstacleEffect
       value: 
       objectReference: {fileID: 19819134, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
@@ -1668,6 +1677,10 @@ PrefabInstance:
       propertyPath: nowScene
       value: 
       objectReference: {fileID: 8105969895812899223}
+    - target: {fileID: 3099436161343439822, guid: 6f59b329e0096464f90f60a293c1267a, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 5702335428894950449}
     - target: {fileID: 3099436161343439822, guid: 6f59b329e0096464f90f60a293c1267a, type: 3}
       propertyPath: obstacleEffect
       value: 

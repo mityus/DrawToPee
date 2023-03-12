@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f88455c2bb6d3d47855f6c9a33e7940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failEffectPrefab: {fileID: 1712591600216471778, guid: 79cff47fe1369e540a9976d474eb62b4, type: 3}
   winEffectPrefab: {fileID: 2911381782964010063, guid: 4c1fcdeda04f50f4ca64218f9112fb7b, type: 3}
 --- !u!1 &1422340009336772074
 GameObject:
@@ -2628,6 +2629,10 @@ PrefabInstance:
       propertyPath: nowScene
       value: 
       objectReference: {fileID: 7602126339885519081}
+    - target: {fileID: 2202998375604420088, guid: eaa2d0a54bc557a429c4cb111fedc469, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 257861384964435883}
     - target: {fileID: 2202998375604420088, guid: eaa2d0a54bc557a429c4cb111fedc469, type: 3}
       propertyPath: obstacleEffect
       value: 

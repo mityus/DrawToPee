@@ -823,6 +823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f88455c2bb6d3d47855f6c9a33e7940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failEffectPrefab: {fileID: 1712591600216471778, guid: 79cff47fe1369e540a9976d474eb62b4, type: 3}
   winEffectPrefab: {fileID: 2911381782964010063, guid: 4c1fcdeda04f50f4ca64218f9112fb7b, type: 3}
 --- !u!1 &5343730333609274781
 GameObject:
@@ -1668,6 +1669,10 @@ PrefabInstance:
       propertyPath: nowScene
       value: 
       objectReference: {fileID: 8790027447306879937}
+    - target: {fileID: 3099436161343439822, guid: 6f59b329e0096464f90f60a293c1267a, type: 3}
+      propertyPath: effectManager
+      value: 
+      objectReference: {fileID: 5096804157609151985}
     - target: {fileID: 5047682437356352329, guid: 6f59b329e0096464f90f60a293c1267a, type: 3}
       propertyPath: m_RootOrder
       value: 19
