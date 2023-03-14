@@ -1306,6 +1306,7 @@ GameObject:
   - component: {fileID: 4654135202845772881}
   - component: {fileID: 4055813852741405202}
   - component: {fileID: 5972694677370516116}
+  - component: {fileID: 911051152710585890}
   m_Layer: 0
   m_Name: car01 (1)
   m_TagString: Untagged
@@ -1416,12 +1417,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26848834682d3c54cb0badb6cdc679b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
-  nowScene: {fileID: 7105544826665690849}
-  effectManager: {fileID: 271139054888024311}
   startPoint: {fileID: 6365210469653995558}
   finishPoint: {fileID: 6365210469422106943}
   speedMove: 3
+--- !u!114 &911051152710585890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007770786465976984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1186ac87d8261d045ac2e3d9cf8683f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
+  nowScene: {fileID: 7105544826665690849}
+  effectManager: {fileID: 271139054888024311}
 --- !u!1001 &5006228856816738087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1952,11 +1965,31 @@ PrefabInstance:
       objectReference: {fileID: 938092226069282056}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+--- !u!1 &7062450986799642017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3995981671676544485, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+  m_PrefabInstance: {fileID: 6158190808279035972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1316300719057877684 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5130226070330870512, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
   m_PrefabInstance: {fileID: 6158190808279035972}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5635798319449720069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7062450986799642017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1186ac87d8261d045ac2e3d9cf8683f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
+  nowScene: {fileID: 7105544826665690849}
+  effectManager: {fileID: 271139054888024311}
 --- !u!1001 &7105544827105831602
 PrefabInstance:
   m_ObjectHideFlags: 0

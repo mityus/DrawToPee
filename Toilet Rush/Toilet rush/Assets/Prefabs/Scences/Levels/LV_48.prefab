@@ -1586,11 +1586,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2223d4d0bde74c4181c1312049cb543, type: 3}
+--- !u!1 &6911556291667573521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 866758349397533628, guid: c2223d4d0bde74c4181c1312049cb543, type: 3}
+  m_PrefabInstance: {fileID: 6047665746694609069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &248570644949330854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5809228295455961867, guid: c2223d4d0bde74c4181c1312049cb543, type: 3}
   m_PrefabInstance: {fileID: 6047665746694609069}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8725338304489211368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911556291667573521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1186ac87d8261d045ac2e3d9cf8683f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newScene: {fileID: 7483350386641956189, guid: 50a4f4700e22aa542a152a5119353ef1, type: 3}
+  nowScene: {fileID: 7171833048793904450}
+  effectManager: {fileID: 6351042262015064259}
 --- !u!1001 &7171833047614851281
 PrefabInstance:
   m_ObjectHideFlags: 0

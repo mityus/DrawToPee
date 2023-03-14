@@ -17,7 +17,7 @@ namespace Effects
             Vector3 goLocalScale = go.localScale;
             
             Instantiate(effect, 
-                new Vector2(goPosition.x, goPosition.y + goLocalScale.y * 2), Quaternion.identity, 
+                new Vector2(goPosition.x, goPosition.y + goLocalScale.y), Quaternion.identity, 
                 gameObject.transform);
         }
     }

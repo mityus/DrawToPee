@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Obstacles.Enemy
 {
-    public class Vehicle : Obstacles, IEnemyMovement
+    public class Vehicle : MonoBehaviour,  IEnemyMovement
     {
         [SerializeField] private Transform startPoint;
         [SerializeField] private Transform finishPoint;
