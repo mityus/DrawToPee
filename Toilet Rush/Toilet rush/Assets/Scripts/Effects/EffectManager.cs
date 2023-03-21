@@ -15,10 +15,13 @@ namespace Effects
         {
             Vector3 goPosition = go.position;
             Vector3 goLocalScale = go.localScale;
-            
+
+            float positionY = effect.gameObject.name == "FightEffect" ? 
+                goPosition.y + goLocalScale.y : goPosition.y + goLocalScale.y * 2.5f;
+
             Instantiate(effect, 
-                new Vector2(goPosition.x, goPosition.y + goLocalScale.y), Quaternion.identity, 
-                gameObject.transform);
+                new Vector2(goPosition.x, positionY), Quaternion.identity,
+                    gameObject.transform);
         }
     }
 }

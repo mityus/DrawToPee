@@ -23,11 +23,16 @@ namespace Player
         [SerializeField] private GameObject firstPoint;
         [SerializeField] private float stepDistance = 2f;
         [SerializeField] private Transform parentPoint;
-
-        [Space] 
-        [Header("Effect")] [SerializeField] private GameObject obstcleEffect;
-
+        
+        [Header("EffectProperties")]
         [SerializeField] private GameObject effectManager;
+
+        [Header("Emotion")] 
+        [SerializeField] private Sprite mouthSprite;
+        [SerializeField] private Sprite lipsSprite;
+        [SerializeField] private GameObject mouthGameObject;
+        [SerializeField] private GameObject lipsGameObject;
+
 
         private Coroutine _drawing;
         private Vector3 _positionPoint;
@@ -62,7 +67,6 @@ namespace Player
             _pointList.Add(firstPoint);
 
             _effectManager = effectManager.GetComponent<EffectManager>();
-
         }
 
         private void Update()
@@ -168,12 +172,7 @@ namespace Player
                     {
                         if (_isReachAim)
                         {
-                            _pointList.Clear();
-                            _isMovement = false;
-                            
-                            _effectManager.PlayEffect(_effectManager.WinEffect, gameObject.transform);
-                            
-                            LevelManager.Instance.ReachGoal(gameObject.transform);
+                            Win();
                         }
                         else
                         {
@@ -197,8 +196,7 @@ namespace Player
             {
                 if (other.gameObject.CompareTag("Player"))
                 {
-                    Instantiate(obstcleEffect, gameObject.transform.position,
-                        Quaternion.identity, gameObject.transform.parent);
+                    _effectManager.PlayEffect(_effectManager.FailEffectPrefab, gameObject.transform);
                     
                     Destroy(gameObject.GetComponent<CapsuleCollider2D>());
                     Destroy(other.gameObject.GetComponent<CapsuleCollider2D>());
@@ -209,6 +207,29 @@ namespace Player
                     LevelManager.Instance.LoseLvl();
                 }
             }
+        }
+
+        private void ChangeSprite(GameObject go, Sprite newSprite)
+        {
+            go.GetComponent<SpriteRenderer>().sprite = newSprite;
+        }
+
+        private void Win()
+        {
+            _pointList.Clear();
+            _isMovement = false;
+                            
+            _effectManager.PlayEffect(_effectManager.WinEffect, gameObject.transform);
+
+            if (gameObject.name == "HaggyWaggyIdle") ChangeSprite(mouthGameObject, mouthSprite);
+            else Destroy(mouthGameObject);
+            
+            ChangeSprite(lipsGameObject, lipsSprite);
+            
+            _animator.SetBool("Run", false);
+            _animator.SetBool("Win", true);
+
+            LevelManager.Instance.ReachGoal(gameObject.transform);
         }
     }
 }

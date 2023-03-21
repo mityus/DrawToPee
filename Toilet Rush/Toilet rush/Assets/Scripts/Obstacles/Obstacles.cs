@@ -25,7 +25,6 @@ namespace Obstacles
 
         private void Start()
         {
-            print(newScene);
             _effectManager = effectManager.GetComponent<EffectManager>();
         }
 

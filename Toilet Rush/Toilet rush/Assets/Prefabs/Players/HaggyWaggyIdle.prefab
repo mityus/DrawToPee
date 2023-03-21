@@ -387,8 +387,8 @@ MonoBehaviour:
   - {fileID: 8969503618343924160}
   - {fileID: 1109659312159481}
   m_Bounds:
-    m_Center: {x: -0.07152282, y: -0.044819057, z: 0}
-    m_Extent: {x: 0.15821736, y: 0.52101403, z: 0}
+    m_Center: {x: -0.07152283, y: -0.044819057, z: 0}
+    m_Extent: {x: 0.15821737, y: 0.52101403, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1326981991014828731
@@ -1602,7 +1602,11 @@ MonoBehaviour:
   firstPoint: {fileID: 0}
   stepDistance: 1
   parentPoint: {fileID: 0}
-  obstcleEffect: {fileID: 119968, guid: e73000b12fb76244cbffd6abbf8bb6e4, type: 3}
+  effectManager: {fileID: 0}
+  mouthSprite: {fileID: -3577126300169468293, guid: cffe1503db5c27249bbaae850ca70923, type: 3}
+  lipsSprite: {fileID: -1123296444389181481, guid: cffe1503db5c27249bbaae850ca70923, type: 3}
+  mouthGameObject: {fileID: 7021519038251695071}
+  lipsGameObject: {fileID: 1139846265268909468}
 --- !u!1 &6520391100869354338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,7 +2021,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8929615960247033325}
   m_LocalRotation: {x: 0, y: 0, z: 0.71089816, w: 0.70329505}
-  m_LocalPosition: {x: 0.031121254, y: 1.015923, z: 0}
+  m_LocalPosition: {x: 0.03112125, y: 1.015923, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8568508282327161703}

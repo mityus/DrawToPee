@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 5381804584314808144}
   finishPoint: {fileID: 5381804584009551433}
-  speedMove: 3
+  speedMove: 2
 --- !u!114 &8541862116225970578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1510,6 +1510,10 @@ PrefabInstance:
       propertyPath: nowScene
       value: 
       objectReference: {fileID: 8105969895812899223}
+    - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
+      propertyPath: speedMove
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 771948528527713769, guid: 4587e6be6cac42246b020a37ffc8e9a5, type: 3}
       propertyPath: startPoint
       value: 

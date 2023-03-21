@@ -1248,7 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 4019394367226521135}
     - target: {fileID: 2277176159080500025, guid: 662b6c9488873204d940abb554d237c7, type: 3}
       propertyPath: speedMovement
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2355514612477072356, guid: 662b6c9488873204d940abb554d237c7, type: 3}
       propertyPath: m_Bounds.m_Center.x
@@ -1744,7 +1744,7 @@ PrefabInstance:
       objectReference: {fileID: 4019394367226521135}
     - target: {fileID: 3374539336542797611, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
       propertyPath: speedMovement
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5426351553684166224, guid: 0acd4893d6d16b646a7d96c50152124b, type: 3}
       propertyPath: m_Bounds.m_Center.x
