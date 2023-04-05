@@ -165,7 +165,7 @@ TextureImporter:
       213: 1563670206801768619
     second: Button300_26
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -186,6 +186,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -224,6 +225,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -263,6 +265,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -853,6 +867,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Button300_1: 8854240910006021542
+      Button300_3: -2092707037253815471
+      Button300_15: -8410040073141193720
+      Button300_13: 8824446373390943217
+      Button300_21: -5105965245422904693
+      Button300_6: 326360404870654284
+      Button300_17: -404350762275499334
+      Button300_26: 1563670206801768619
+      Button300_19: 2665502128420768462
+      Button300_16: 8197739063747412641
+      Button300_22: 8257016558364232985
+      Button300_8: 1545805112131096613
+      Button300_24: 6785427853239162994
+      Button300_0: -7104581969668032948
+      Button300_10: 3007865993437765985
+      Button300_18: -4037972342984270616
+      Button300_25: 7184840439051976503
+      Button300_12: -8414343182983633524
+      Button300_20: 4991431081979056934
+      Button300_11: -8374530081542611941
+      Button300_7: -7912362285998281864
+      Button300_14: 2918050571503543204
+      Button300_23: 1600216685480626694
+      Button300_2: 5056277542730778344
+      Button300_5: -943401162838079434
+      Button300_9: 8438163477791704246
+      Button300_4: 7787584798662294082
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

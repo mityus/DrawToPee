@@ -483,7 +483,7 @@ TextureImporter:
       213: 4987544812807457168
     second: Icon101_79
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -504,6 +504,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -542,6 +543,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -581,6 +583,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2284,6 +2298,87 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Icon101_5: 4871499080413269580
+      Icon101_67: -7259937339910319329
+      Icon101_61: -4817908351707358434
+      Icon101_71: 2712916905370755132
+      Icon101_63: -6829255011444979921
+      Icon101_66: -5321802096357037940
+      Icon101_0: 3487547543936445566
+      Icon101_4: 7843010573156617593
+      Icon101_24: -7142301877670466176
+      Icon101_16: 357586186691102347
+      Icon101_31: 6405202004840284965
+      Icon101_11: 1299158773651703237
+      Icon101_55: 252542829076252290
+      Icon101_56: -4878025182043695707
+      Icon101_35: -5251684984789841672
+      Icon101_28: 1431772547452097262
+      Icon101_39: 8401416648306297623
+      Icon101_22: 4565979892698372605
+      Icon101_32: -1139756706353837966
+      Icon101_7: 5406844297115921379
+      Icon101_46: 1968004430357561718
+      Icon101_18: -6509266046729771633
+      Icon101_78: 4975469345300700624
+      Icon101_59: -2307071247219235153
+      Icon101_34: -2590334809072210085
+      Icon101_70: 731450448818660450
+      Icon101_73: 148725191871478168
+      Icon101_76: -7379316402299680247
+      Icon101_77: 4681225777859569626
+      Icon101_79: 4987544812807457168
+      Icon101_14: 2568964120417827249
+      Icon101_42: -1113486040537712959
+      Icon101_62: -7898743067881982747
+      Icon101_50: -3238323949342182759
+      Icon101_25: 2410294991295774885
+      Icon101_57: -7148695055351756407
+      Icon101_64: 6452607776454315060
+      Icon101_49: 2635578427233646177
+      Icon101_17: -5915672397781146287
+      Icon101_30: 4547983453586001225
+      Icon101_53: -5609809299505468990
+      Icon101_41: -5147697241833240968
+      Icon101_54: 2440575186424317624
+      Icon101_2: -4235506283263272774
+      Icon101_8: -3035577724869249446
+      Icon101_36: 5246995311945164283
+      Icon101_10: 3667101658294839498
+      Icon101_51: -4745047618308202138
+      Icon101_74: 7596981576554746946
+      Icon101_29: 4621758879742089225
+      Icon101_65: -6374465346751252097
+      Icon101_40: 4028952052834081143
+      Icon101_20: 4536149921961547040
+      Icon101_23: -6313545115650600593
+      Icon101_15: 4203280894870374771
+      Icon101_75: -7217845247448897011
+      Icon101_68: 445375503607792508
+      Icon101_43: -4507972523241984969
+      Icon101_3: 9170950595621294068
+      Icon101_21: -8300039264252380473
+      Icon101_38: -8853509512740033951
+      Icon101_26: 8227001548842202624
+      Icon101_72: 2272635169166324214
+      Icon101_45: 7348841445741316994
+      Icon101_37: 2896252946453590989
+      Icon101_33: 1532152606411138220
+      Icon101_27: 2081518108625781571
+      Icon101_47: 4524027861490109044
+      Icon101_60: 4134184797364370323
+      Icon101_48: -8584469696542041636
+      Icon101_58: 3912009191295184469
+      Icon101_19: -9142675281627568042
+      Icon101_52: 3149753463465385119
+      Icon101_44: -1535931019643422446
+      Icon101_13: -2590625928719945906
+      Icon101_1: -6476402853501379598
+      Icon101_9: -6356025100207655948
+      Icon101_12: -1680011140978827634
+      Icon101_69: 7492082752610025113
+      Icon101_6: -140351964602546350
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

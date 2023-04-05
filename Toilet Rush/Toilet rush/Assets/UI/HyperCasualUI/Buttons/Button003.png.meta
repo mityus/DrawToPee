@@ -339,7 +339,7 @@ TextureImporter:
       213: -6430668439538967905
     second: Button003_55
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -360,6 +360,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -398,6 +399,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -437,6 +439,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1636,6 +1650,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Button003_25: -3654662501182645590
+      Button003_3: 8913293044843765934
+      Button003_33: 7246121803639575443
+      Button003_28: 7408592220871626009
+      Button003_50: 1411632703066293218
+      Button003_16: 158096754680155737
+      Button003_7: 4841327271364588028
+      Button003_29: 5462761718944807835
+      Button003_9: -6377438219132568390
+      Button003_10: -4950590470645057890
+      Button003_27: 7515998455742618523
+      Button003_6: 9206195780156266156
+      Button003_42: 3746576578674560053
+      Button003_34: -1777801016106350768
+      Button003_47: 1402235642267132242
+      Button003_14: 9088982234967434461
+      Button003_26: 4289292503027186013
+      Button003_20: 1129323630366285116
+      Button003_17: -4760141779623720357
+      Button003_48: 3139444343046763754
+      Button003_23: 7775596227642806116
+      Button003_41: -2300165973318145446
+      Button003_0: -6053714072703677591
+      Button003_51: -4623164523984524976
+      Button003_5: 4997237610022279783
+      Button003_8: 1289042720058108203
+      Button003_13: -2617574875722721162
+      Button003_19: 7324520392229889314
+      Button003_46: -4605396406194541888
+      Button003_53: -932175169341563317
+      Button003_2: 2989991935763082891
+      Button003_12: 1037082987493087832
+      Button003_24: -902178448442077615
+      Button003_32: -5250164978742729630
+      Button003_22: 6433880125465458658
+      Button003_35: 1916854608252586750
+      Button003_38: -2011403525414216161
+      Button003_45: 2581933137656835357
+      Button003_39: -7004221105391568178
+      Button003_15: -7013141221456464852
+      Button003_11: 4343986693482027238
+      Button003_21: -7019673544970060633
+      Button003_49: 3625015221339955885
+      Button003_30: -7677393084822450234
+      Button003_40: 4026452348289028867
+      Button003_52: 2018635785565101745
+      Button003_36: -8848580977769546077
+      Button003_43: -6587938674870945554
+      Button003_55: -6430668439538967905
+      Button003_44: -3034561960521238526
+      Button003_54: -810875155903483276
+      Button003_1: -165495521881077399
+      Button003_4: -3372734917190926126
+      Button003_18: 7345931432225020452
+      Button003_31: -6558625672077733632
+      Button003_37: 4316119174362951870
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

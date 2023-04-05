@@ -525,7 +525,7 @@ TextureImporter:
       213: -2916187151569003421
     second: Progressbar000_86
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -546,6 +546,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -584,6 +585,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -623,6 +625,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2473,6 +2487,94 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Progressbar000_55: -3579946675040150549
+      Progressbar000_47: -9101848050561622377
+      Progressbar000_70: -2020396901868386163
+      Progressbar000_62: -3585229654008092561
+      Progressbar000_36: 8176517430799028879
+      Progressbar000_72: 6501279105259253769
+      Progressbar000_54: -6245972744044903583
+      Progressbar000_9: 48315937085986782
+      Progressbar000_85: 3904101215376957988
+      Progressbar000_69: 6732608422117214424
+      Progressbar000_40: -4113408917187246177
+      Progressbar000_19: -2123161802661024593
+      Progressbar000_17: 7487079002082718767
+      Progressbar000_24: 3811757035294162166
+      Progressbar000_50: 3596527661668274502
+      Progressbar000_60: 7226241383807605298
+      Progressbar000_77: -3754885820957455718
+      Progressbar000_23: -2240502687043335464
+      Progressbar000_57: 7206761984426532508
+      Progressbar000_30: 6604580310923872610
+      Progressbar000_63: 2068826466865067631
+      Progressbar000_73: 628389770317751589
+      Progressbar000_8: -3075644500636286299
+      Progressbar000_10: -3214170182121060045
+      Progressbar000_26: -4813823219563701971
+      Progressbar000_16: -4772850524008087589
+      Progressbar000_13: -2807016396250883252
+      Progressbar000_56: 8221442321167482370
+      Progressbar000_45: -6903928397741297772
+      Progressbar000_78: 7869372372200897490
+      Progressbar000_1: -8730077793424926315
+      Progressbar000_22: 2307461542805651905
+      Progressbar000_80: -4451251302050554421
+      Progressbar000_86: -2916187151569003421
+      Progressbar000_14: 999926263325037353
+      Progressbar000_41: 1713801524326230770
+      Progressbar000_37: -9120333960307774020
+      Progressbar000_0: 37034546533860645
+      Progressbar000_6: 952671006657780101
+      Progressbar000_28: -18585040235965504
+      Progressbar000_42: -1484458611465970679
+      Progressbar000_75: 7071599728333644999
+      Progressbar000_48: -5384121543225487362
+      Progressbar000_71: 7439170466041875035
+      Progressbar000_31: -4947142520959380384
+      Progressbar000_15: 9124194980988727117
+      Progressbar000_33: 1301348894260101171
+      Progressbar000_59: -2988545752718587957
+      Progressbar000_43: 936787943506743521
+      Progressbar000_5: 7961648841893238115
+      Progressbar000_18: -8207750559785987268
+      Progressbar000_51: -3613702465107527777
+      Progressbar000_39: -2604055812150454229
+      Progressbar000_7: -7356349829216190054
+      Progressbar000_83: -1316123906122541354
+      Progressbar000_79: -1279329480406276568
+      Progressbar000_38: 131972974737694191
+      Progressbar000_46: 8894646731486571117
+      Progressbar000_25: -7377348400958456966
+      Progressbar000_4: 6713541508232488236
+      Progressbar000_34: 828890640776128215
+      Progressbar000_20: 1766829666711981221
+      Progressbar000_67: 4443044132431733505
+      Progressbar000_49: -5065556004935514502
+      Progressbar000_3: -1102866575468412406
+      Progressbar000_12: -8914976955630055762
+      Progressbar000_76: 1937109711906852262
+      Progressbar000_82: 7145419728570082115
+      Progressbar000_35: 495059656483204923
+      Progressbar000_74: 1627790976905792632
+      Progressbar000_27: 4822772356810386988
+      Progressbar000_61: -4882830377845850739
+      Progressbar000_66: -3169111622460305050
+      Progressbar000_29: -8085756823618361569
+      Progressbar000_21: -5449430300965411148
+      Progressbar000_52: 874559450572411834
+      Progressbar000_11: 8900991453154937033
+      Progressbar000_32: -4245320876328386162
+      Progressbar000_68: 1294292646232784253
+      Progressbar000_84: -293153084904903767
+      Progressbar000_81: -7180845103933120628
+      Progressbar000_58: 4009421833355104103
+      Progressbar000_2: 5002826640920411424
+      Progressbar000_44: -6334628881626522503
+      Progressbar000_65: 5870665301959271748
+      Progressbar000_53: -4458037089776767376
+      Progressbar000_64: 2376643315779633199
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

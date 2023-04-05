@@ -111,7 +111,7 @@ TextureImporter:
       213: -5002084876780018729
     second: Button600_17
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -132,6 +132,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -170,6 +171,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -209,6 +211,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -610,6 +624,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Button600_0: 2061770718351458733
+      Button600_2: -5072887480221286074
+      Button600_7: -6017703194901161315
+      Button600_10: -1081280174610246348
+      Button600_13: 8895701133506314368
+      Button600_15: 2987994661474808613
+      Button600_5: -3243807915066322354
+      Button600_8: -8899931291649518291
+      Button600_14: 6558528497890287786
+      Button600_11: -8388554862888040157
+      Button600_17: -5002084876780018729
+      Button600_3: -3841068012748071449
+      Button600_16: 7616425138714103112
+      Button600_1: 6553033440919540642
+      Button600_4: -1761739308111832156
+      Button600_12: -8328080864470369544
+      Button600_6: 3133330578722352886
+      Button600_9: 5406695854440650192
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

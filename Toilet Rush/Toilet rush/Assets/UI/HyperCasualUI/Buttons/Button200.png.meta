@@ -183,7 +183,7 @@ TextureImporter:
       213: 2848923336390626695
     second: Button200_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -242,6 +243,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -281,6 +283,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -934,6 +948,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Button200_28: -853774763082791168
+      Button200_17: 6534199593199723940
+      Button200_11: 6640462448482027358
+      Button200_15: 1138915883118533867
+      Button200_12: -8035139225678074503
+      Button200_25: 8103885523906157709
+      Button200_1: 5861989057484937835
+      Button200_6: 4408727792022781594
+      Button200_24: 5653333089630512505
+      Button200_0: 898946727637599272
+      Button200_16: 1719956120574934930
+      Button200_29: 2848923336390626695
+      Button200_20: 6417844074419114046
+      Button200_4: -2648359118350984825
+      Button200_13: -1573271042089816392
+      Button200_18: -1167188083293273651
+      Button200_27: 8584765791673233992
+      Button200_5: 3005285182348478751
+      Button200_19: 2615922648613887113
+      Button200_23: 4113495893231663155
+      Button200_10: 3520188519502055814
+      Button200_2: -5201574244167498825
+      Button200_7: 4815519728630484259
+      Button200_8: 4989936076493838299
+      Button200_3: -2827625552095445255
+      Button200_9: 2402988320452147400
+      Button200_14: 1387970333153714101
+      Button200_26: 7876220154035516619
+      Button200_22: 7566390883347322398
+      Button200_21: -8349918413317541092
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

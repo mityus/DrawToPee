@@ -195,7 +195,7 @@ TextureImporter:
       213: 6770994412634576542
     second: Button500_31
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -216,6 +216,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -254,6 +255,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -293,6 +295,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -988,6 +1002,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Button500_13: -2233743726970973003
+      Button500_9: 4844080951855663315
+      Button500_17: 956486274364334933
+      Button500_21: -1524606541572193403
+      Button500_20: -8145227533559819293
+      Button500_6: -2129233420228862071
+      Button500_23: -4874274200913834866
+      Button500_25: 6408846654013154410
+      Button500_24: 5179060175127221770
+      Button500_18: -4867289981294503566
+      Button500_22: 534911090668743447
+      Button500_5: 2163049759122607946
+      Button500_27: 3517984391157192449
+      Button500_14: -370166653913353079
+      Button500_19: -3688203532896184481
+      Button500_2: -8523554727546051593
+      Button500_31: 6770994412634576542
+      Button500_0: 4872666895277418214
+      Button500_28: 8358988805871249597
+      Button500_7: 9035985355807952668
+      Button500_11: 6393461853809553135
+      Button500_12: -8981112074419258988
+      Button500_29: -1947603878189639945
+      Button500_26: -9119926831882534408
+      Button500_10: 7908726777669885235
+      Button500_8: -7247948249611815591
+      Button500_15: 398444353819211788
+      Button500_4: 672046954786203051
+      Button500_16: 3937561646391252909
+      Button500_30: -5866072192371866489
+      Button500_3: -3939015851688666488
+      Button500_1: -835415667180533603
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

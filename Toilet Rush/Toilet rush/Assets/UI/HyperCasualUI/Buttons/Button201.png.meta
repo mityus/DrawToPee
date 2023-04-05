@@ -183,7 +183,7 @@ TextureImporter:
       213: -5374630284618126
     second: Button201_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -242,6 +243,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -281,6 +283,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -934,6 +948,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Button201_1: -5971758494336935932
+      Button201_12: 2000307398394105119
+      Button201_16: -9048744999662821533
+      Button201_7: 6408984298042509236
+      Button201_6: -4511947568622142104
+      Button201_3: -8733775005646500048
+      Button201_15: -4098891514101255733
+      Button201_19: 3678179168280063882
+      Button201_14: -2508623789902070326
+      Button201_18: -1931836596286010197
+      Button201_11: 643516667447640740
+      Button201_0: 2001881600883387508
+      Button201_25: -2910135252041538550
+      Button201_26: -2536023131010386027
+      Button201_23: 298162009157426682
+      Button201_5: 3129816580481434693
+      Button201_21: -2293861971743200774
+      Button201_24: 8608622199209619635
+      Button201_28: -3426735364577405255
+      Button201_29: -5374630284618126
+      Button201_20: -4677688684139607648
+      Button201_13: 2012698971133790326
+      Button201_27: 6590230899624121314
+      Button201_9: 8340491102999200013
+      Button201_10: -6127926083584577693
+      Button201_4: -869142552337880633
+      Button201_2: -641524684840313073
+      Button201_17: -5911506615754890319
+      Button201_22: 839607550233566807
+      Button201_8: -7987507347788969288
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

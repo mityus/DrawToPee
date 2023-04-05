@@ -423,7 +423,7 @@ TextureImporter:
       213: 6361255942214289151
     second: Icon100_69
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -444,6 +444,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -482,6 +483,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -521,6 +523,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1762,6 +1776,65 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Icon100_14: 7909566339621983798
+      Icon100_19: 8370552961671865809
+      Icon100_1: -5622415411052937188
+      Icon100_32: 4123070726829015762
+      Icon100_43: 7422914789853004693
+      Icon100_22: -6473586732859291019
+      Icon100_16: -8951955461582105366
+      Icon100_47: -7484239304330062303
+      Icon100_52: 1876707595384506839
+      Icon100_28: 8577070412205919857
+      Icon100_15: 5480738041912629182
+      Icon100_41: 3029745157562991095
+      Icon100_27: 1697319066566183636
+      Icon100_8: 3118420159431537055
+      Icon100_3: -8408313925502231123
+      Icon100_20: 7668679343001162583
+      Icon100_34: 3175493154331681614
+      Icon100_17: -8830785949019666963
+      Icon100_51: -7466372403309396658
+      Icon100_9: -1023499656750169054
+      Icon100_7: 5585376855800802323
+      Icon100_24: -8513599749831589840
+      Icon100_12: -7831536065309158092
+      Icon100_39: 5730080360690959496
+      Icon100_23: -3037267709158506345
+      Icon100_29: 8500371132931727258
+      Icon100_35: 4006702179819651402
+      Icon100_53: -6670876538906915522
+      Icon100_13: -3269578556660596545
+      Icon100_44: -474655645409602966
+      Icon100_25: -1275090035060045360
+      Icon100_26: 5802546720360595519
+      Icon100_46: 1720500939425610090
+      Icon100_4: 3277163100531332372
+      Icon100_2: -6988541675448691864
+      Icon100_5: -8159315107056960482
+      Icon100_33: 8946573046810243013
+      Icon100_45: -8135451595888851344
+      Icon100_6: 6433556660657639722
+      Icon100_21: -976471791295277702
+      Icon100_58: -2953262159289386824
+      Icon100_36: 3307605430952148503
+      Icon100_55: -5317611789682075000
+      Icon100_0: -9192671074825750611
+      Icon100_48: 7153129627537784731
+      Icon100_40: 5297549462913740009
+      Icon100_31: 8786678316324117166
+      Icon100_11: -7480423497199844829
+      Icon100_18: 7822406170219640465
+      Icon100_68: -4188591565089159628
+      Icon100_38: -4059258750739265650
+      Icon100_30: 8684224407988641944
+      Icon100_37: -1755015631815939641
+      Icon100_10: 2748057652689121731
+      Icon100_49: 2728047083664047405
+      Icon100_42: -1662048165695055922
+      Icon100_54: 4396219156812881612
+      Icon100_50: -3522164366246347588
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
